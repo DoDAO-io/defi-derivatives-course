@@ -1,0 +1,28 @@
+{
+  "key": "derivatives-in-defi",
+  "title": "Derivatives In DeFi",
+  "summary": "This course talks about how derivatives work in DeFi\n",
+  "details": "In this course we first ....",
+  "duration": "30 mins - 1 hour",
+  "highlights": [
+    "Introduction",
+    "dydx",
+    "GMX"
+  ],
+  "publishStatus": "Live",
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/CourseIcons/derivatives_course.png",
+  "courseAdmins": [],
+  "coursePassContent": "Pass content of Course !!!!!!!!!!",
+  "topics": [
+    {
+      "title": "Intoduction",
+      "key": "intoduction",
+      "details": "Derivatives in DeFi\n",
+      "order": 0,
+      "explanations": [],
+      "questions": [],
+      "readings": [],
+      "summaries": []
+    }
+  ]
+}
