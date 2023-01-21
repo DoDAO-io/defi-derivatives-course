@@ -23,7 +23,7 @@
         {
           "key": "perpetual-futures",
           "shortTitle": "Perpetual Futures",
-          "details": "## References\n- https://www.youtube.com/watch?v=wfx78LWd3PM\n- https://academy.binance.com/en/articles/what-are-perpetual-futures-contracts\n- https://www.youtube.com/watch?v=01BPptRKc9o\n- https://www.youtube.com/watch?v=mUvsWekvkV8",
+          "details": "## Open Interest\n- Number of future contracts that are open\n- There are always two side of the the contract, so every short will have a long side too.\n\n## References\n- https://www.youtube.com/watch?v=wfx78LWd3PM\n- https://academy.binance.com/en/articles/what-are-perpetual-futures-contracts\n- https://www.youtube.com/watch?v=01BPptRKc9o\n- https://www.youtube.com/watch?v=mUvsWekvkV8",
           "title": "Perpetual Futures"
         }
       ],

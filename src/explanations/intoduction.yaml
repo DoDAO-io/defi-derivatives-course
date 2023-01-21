@@ -2,6 +2,14 @@
   title: Perpetual Futures
   shortTitle: Perpetual Futures
   details: >-
+    ## Open Interest
+
+    - Number of future contracts that are open
+
+    - There are always two side of the the contract, so every short will have a
+    long side too.
+
+
     ## References
 
     - https://www.youtube.com/watch?v=wfx78LWd3PM
