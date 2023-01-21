@@ -9,6 +9,7 @@
     - There are always two side of the the contract, so every short will have a
     long side too.
 
+
     ## What are perpetual Swaps?
 
     Perpetual swaps are derivatives that let you buy or sell the value of
@@ -23,6 +24,9 @@
     3. the swap price closely tracks the price of the underlying asset
 
     4. it’s easy to short.
+
+
+    https://medium.com/derivadex/what-are-perpetual-swaps-130236587df2
 
 
     ## References
