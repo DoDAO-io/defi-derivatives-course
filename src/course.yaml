@@ -1,20 +1,21 @@
 title: Derivatives In DeFi
 key: derivatives-in-defi
-summary: >
+summary: |
   This course talks about how derivatives work in DeFi
 highlights:
   - Introduction
   - dydx
   - GMX
 publishStatus: Live
-thumbnail: https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/CourseIcons/derivatives_course.png
-details: >-
-  In this course we first ....
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/CourseIcons/derivatives_course.png
+details: In this course we first ....
 duration: 30 mins - 1 hour
 topics:
   - key: intoduction
     title: Intoduction
-    details: >+
+    details: |
       Derivatives in DeFi
+    explanations: intoduction.yaml
 courseAdmins: []
 coursePassContent: Pass content of Course !!!!!!!!!!

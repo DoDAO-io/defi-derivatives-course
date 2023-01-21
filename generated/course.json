@@ -19,7 +19,14 @@
       "key": "intoduction",
       "details": "Derivatives in DeFi\n",
       "order": 0,
-      "explanations": [],
+      "explanations": [
+        {
+          "key": "perpetual-futures",
+          "shortTitle": "Perpetual Futures",
+          "details": "## References\n- https://academy.binance.com/en/articles/what-are-perpetual-futures-contracts\n- https://www.youtube.com/watch?v=01BPptRKc9o",
+          "title": "Perpetual Futures"
+        }
+      ],
       "questions": [],
       "readings": [],
       "summaries": []
