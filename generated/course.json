@@ -23,7 +23,7 @@
         {
           "key": "perpetual-futures",
           "shortTitle": "Perpetual Futures",
-          "details": "## Open Interest\n- Number of future contracts that are open\n- There are always two side of the the contract, so every short will have a long side too.\n\n## References\n- https://www.coindesk.com/learn/what-is-a-perpetual-swap-contract/\n- https://www.youtube.com/watch?v=wfx78LWd3PM\n- https://academy.binance.com/en/articles/what-are-perpetual-futures-contracts\n- https://www.youtube.com/watch?v=01BPptRKc9o\n- https://www.youtube.com/watch?v=mUvsWekvkV8",
+          "details": "## Open Interest\n- Number of future contracts that are open\n- There are always two side of the the contract, so every short will have a long side too.\n## What are perpetual Swaps?\nPerpetual swaps are derivatives that let you buy or sell the value of something (that something is usually called an “underlying asset”) with several advantages: \n1. there is no expiry date to your position (i.e., you can hold it as long as you want) \n2. the underlying asset itself is never traded (meaning no custody issues)\n3. the swap price closely tracks the price of the underlying asset\n4. it’s easy to short.\n\n## References\n- https://www.coindesk.com/learn/what-is-a-perpetual-swap-contract/\n- https://www.youtube.com/watch?v=wfx78LWd3PM\n- https://academy.binance.com/en/articles/what-are-perpetual-futures-contracts\n- https://www.youtube.com/watch?v=01BPptRKc9o\n- https://www.youtube.com/watch?v=mUvsWekvkV8",
           "title": "Perpetual Futures"
         }
       ],

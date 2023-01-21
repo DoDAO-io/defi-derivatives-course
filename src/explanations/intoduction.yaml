@@ -9,6 +9,21 @@
     - There are always two side of the the contract, so every short will have a
     long side too.
 
+    ## What are perpetual Swaps?
+
+    Perpetual swaps are derivatives that let you buy or sell the value of
+    something (that something is usually called an “underlying asset”) with
+    several advantages: 
+
+    1. there is no expiry date to your position (i.e., you can hold it as long
+    as you want) 
+
+    2. the underlying asset itself is never traded (meaning no custody issues)
+
+    3. the swap price closely tracks the price of the underlying asset
+
+    4. it’s easy to short.
+
 
     ## References
 
