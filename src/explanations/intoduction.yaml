@@ -61,78 +61,43 @@
     the perpetual swap falls in line with the underlying asset.
 
 
-    Cool, but show me an example!
-
-
-    Fair enough! To give you a concrete example of how perpetual swaps work,
-    we’ll take a look at the 2019 activities of hypothetical trader Alice, who
-    believed the price of Ethereum would go up and wanted to find a smart way to
-    execute her trade.
-
-
-    At the start of April 2019, ETH/USD was trading at roughly $4,000. Alice
-    wanted to bet on a rise in Ethereum price relative to USD, so she bought 2
-    ETH/USD perpetual swap contracts using $8,000 of collateral.
-
-
-    ```
-
-    $8000 / $4000 = 2 ETH/USD perpetual swap contracts
-
-    ```
-
-
-    Until the end of June 2019, the Ethereum spot price steadily rose in dollar
-    value to about $14,000. As part of the funding rate tethering mechanism
-    (this is how a perpetual swap stays close in price to the underlying asset),
-    Alice periodically lost a fee or received a rebate to her account. We
-    describe this further below, and will in much greater detail in a separate
-    post, so don’t worry if this doesn’t make perfect sense yet!
-
-
-    Alice, being a hypothetical trader, timed the market very well. She
-    eventually closed her position after almost 3 months at the local maximum of
-    $14,000. In this scenario, her profits, not considering the periodic funding
-    rate fees or rebates, were $20,000.
-
-
-    ```
-
-    profit = position_size * (current_price - entry_price)
-
-    profit = 2 * (14,000 - 4,000)
-
-    profit = 20,000
-
-    ```
-
-    Nicely done, Alice! She did this all without ever holding any Ethereum at
-    any point.
-
-
-    The bottom line
-
-    Perpetual swaps are a cleverly-designed derivative type that have taken the
-    market by storm, dominating volumes on most of the leading exchanges. It
-    combines desirable qualities of the spot and futures markets, and enables
-    traders to use high leverage without the headache of rolling over expiring
-    futures contracts. As with any leveraged trade, especially with volatile
-    assets like Ethereum, these trades can be risky! Make sure you understand
-    them in full before participating.
-
-
-
     ## What is Funding Rate?
 
+    Funding is calculated based on the Index Price and sampled Mid-Market Prices
+    for the perpetual. When the rate is positive (perpetual trades at a premium
+    relative to index), traders who are long will make payments to traders who
+    are short. When the rate is negative (perpetual trades at a discount
+    relative to index), this is reversed and shorts will pay longs. Traders make
+    or receive payments in proportion to the size of their market position.
+    These payments are exchanged solely between traders, and are neither paid
+    nor received by the exchange.
 
-    ## What if the --- is more than index price?
+
+    The funding rate is designed to keep the price of each perpetual market
+    close to its Index Price. When the price gets too high, longs pay shorts,
+    which encourages more traders to sell or go short, driving the price down.
+    When the price gets too low, shorts pay longs, which encourages more traders
+    to buy or go long, driving the price up.
 
 
-    ## What if the --- is less than index price?
+    Funding rates are calculated by taking into account the premium, which is
+    scaled to have a realization period of 8 hours. What this means is that, for
+    example, if a perpetual market trades at a 0.1% premium relative to the
+    underlying asset, long traders can expect to pay approximately 0.1% every 8
+    hours, while short traders can expect to earn a 0.1% return every 8 hours
+    (not accounting for the interest rate component).
+
+
+    ## When Market rate is more than index price?
+
+
+    ## When Market rate is less than index price?
 
 
 
     ## References
+
+    - https://help.dydx.exchange/en/articles/4797443-perpetual-funding-rate
 
     - https://medium.com/derivadex/what-are-perpetual-swaps-130236587df2
 
