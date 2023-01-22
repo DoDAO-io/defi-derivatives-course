@@ -37,41 +37,32 @@
     Ethereum into your possession for however long you’d like. Or you could go
     to the derivatives markets and buy an options or futures contract. These
     contracts do not immediately settle or transfer any Ethereum to you, but
-    they do allow you to increase your “buying power” (i.e., using derivatives,
-    you can buy more Ethereum and profit more from its price movements than you
-    would otherwise be able to on the spot markets). However, options and
-    futures contracts expire at a certain date, meaning you have to constantly
-    manage and reestablish your positions. For traders who want the benefits of
-    derivatives, but don’t want to deal with the complexity of expiration dates,
-    there’s another option, one that dominates the crypto markets: the perpetual
-    swap.
+    they do allow you to increase your exposure to Ethereum's price movements
+    (i.e., using derivatives, you can speculate on Ethereum's price movements to
+    make more profit than you would otherwise be able to on the spot markets).
+    However, options and futures contracts do have expiration dates. So for
+    traders who want to use derivatives but don't want to constantly manage
+    their positions, there's another option: the "Perpetual Swap". This type of
+    contract dominates the crypto markets because it doesn't have an expiration
+    date.
 
 
-    The perpetual swap is a fairly new type of financial derivative. Unlike the
-    futures and options markets, perpetual swaps do not expire and do not have a
-    settlement date, meaning you can hold your position forever. Unlike the spot
-    markets, the underlying asset is never involved directly, so you can gain
-    exposure to an asset’s price movements without having to actually hold or
-    borrow the asset itself. And lastly, unlike futures contracts where the
-    price can deviate from the spot underlying price (commonly referred to as
-    basis), perpetual swaps should always be closely pegged to the underlying
-    they track. This is accomplished with something called a “funding rate
-    mechanism”, which you can think of as either a fee or a rebate for traders
-    to hold positions. This mechanism balances the buyer and seller demand for
-    the perpetual swap so that its price falls in line with the underlying
-    asset.
 
-
-    It can sound intimidating without the context provided above, but given all
-    of these advantages, you can see how powerful perpetual swaps can be for
-    traders. Now, add in the fact that you can take on a position with varying
-    degrees of leverage (did someone say 100x?), and you can see why all of
-    these properties have driven perpetual swaps into the spotlight as the
-    darling of the crypto trading ecosystem.
-
+    Perpetual swap is a new derivative as of recent years. It does not have an
+    expiry date and also does not have a settlement date, meaning the position
+    can be held forever. The underlying asset is never involved directly, so one
+    can be exposed to an asset’s price movements without having to actually hold
+    or borrow the asset. Unlike futures contracts where the price could differ
+    from the spot underlying price (which is commonly referred to as basis),
+    perpetual swaps are always closely pegged to the underlying they track. This
+    is accomplished by using a funding rate mechanism, which can be thought of
+    as either a fee or a rebate that traders receive for holding positions. This
+    mechanism balances the demand from buyers and sellers so that the price of
+    the perpetual swap falls in line with the underlying asset.
 
 
     Cool, but show me an example!
+
 
     Fair enough! To give you a concrete example of how perpetual swaps work,
     we’ll take a look at the 2019 activities of hypothetical trader Alice, who
