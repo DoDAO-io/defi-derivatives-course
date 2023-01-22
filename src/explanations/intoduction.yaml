@@ -6,37 +6,45 @@
 
     Perpetual Swaps is a new derivative product that gained a lot of traction in
     crypto world. In fact in Crypto perpetual swaps is the most traded
-    derivatives. 
+    derivatives. "Perpetual Swaps" are also know with the name "Perpetual
+    Contracts" or "Perpetual Futures". 
 
 
-
-
-
-    ## What are perpetual Swaps?
+    ## What are Perpetual Swaps?
 
     Perpetual swaps are derivatives that let you buy or sell the value of
     something (that something is usually called an “underlying asset”) with
     several advantages: 
 
-    1. there is no expiry date to your position (i.e., you can hold it as long
+    1. There is no expiry date to your position (i.e., you can hold it as long
     as you want) 
 
-    2. the underlying asset itself is never traded (meaning no custody issues)
+    2. The underlying asset itself is never traded (meaning no custody issues)
 
-    3. the swap price closely tracks the price of the underlying asset
+    3. The swap price closely tracks the price of the underlying asset
 
-    4. it’s easy to short.
+    4. It’s easy to long or short
+
+    5. You can apply use leverage also. Some exchanges provide up to 25x
+    leverage.
 
 
-    https://medium.com/derivadex/what-are-perpetual-swaps-130236587df2
+    ## What do Perpetual Swaps work?
 
 
+    ## What is Funding Rate?
 
-    https://www.coinglass.com/FundingRate
+
+    ## What if the --- is more than index price?
+
+
+    ## What if the --- is less than index price?
 
 
 
     ## References
+
+    - https://medium.com/derivadex/what-are-perpetual-swaps-130236587df2
 
     -
     https://www.youtube.com/watch?v=h2JwNNkGGlg&list=RDLVh2JwNNkGGlg&start_radio=1
@@ -53,3 +61,5 @@
     - https://www.youtube.com/watch?v=01BPptRKc9o
 
     - https://www.youtube.com/watch?v=mUvsWekvkV8
+
+    - https://www.coinglass.com/FundingRate
