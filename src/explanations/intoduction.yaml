@@ -79,14 +79,14 @@
     execute her trade.
 
 
-    At the start of April 2019, BTC/USD was trading at roughly $4,000. Alice
+    At the start of April 2019, ETH/USD was trading at roughly $4,000. Alice
     wanted to bet on a rise in Ethereum price relative to USD, so she bought 2
-    BTC/USD perpetual swap contracts using $8,000 of collateral.
+    ETH/USD perpetual swap contracts using $8,000 of collateral.
 
 
     ```
 
-    $8000 / $4000 = 2 BTC/USD perpetual swap contracts
+    $8000 / $4000 = 2 ETH/USD perpetual swap contracts
 
     ```
 
