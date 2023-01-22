@@ -31,6 +31,105 @@
 
     ## How Perpetual Swaps work?
 
+    If you want to bet on the price of Ethereum going up, you have several
+    options. You could go to a spot exchange and purchase actual Ethereum with
+    your funds at the specified exchange rate. This immediately transfers
+    Ethereum into your possession for however long you’d like. Or you could go
+    to the derivatives markets and buy an options or futures contract. These
+    contracts do not immediately settle or transfer any Ethereum to you, but
+    they do allow you to increase your “buying power” (i.e., using derivatives,
+    you can buy more Ethereum and profit more from its price movements than you
+    would otherwise be able to on the spot markets). However, options and
+    futures contracts expire at a certain date, meaning you have to constantly
+    manage and reestablish your positions. For traders who want the benefits of
+    derivatives, but don’t want to deal with the complexity of expiration dates,
+    there’s another option, one that dominates the crypto markets: the perpetual
+    swap.
+
+
+    The perpetual swap is a fairly new type of financial derivative. Unlike the
+    futures and options markets, perpetual swaps do not expire and do not have a
+    settlement date, meaning you can hold your position forever. Unlike the spot
+    markets, the underlying asset is never involved directly, so you can gain
+    exposure to an asset’s price movements without having to actually hold or
+    borrow the asset itself. And lastly, unlike futures contracts where the
+    price can deviate from the spot underlying price (commonly referred to as
+    basis), perpetual swaps should always be closely pegged to the underlying
+    they track. This is accomplished with something called a “funding rate
+    mechanism”, which you can think of as either a fee or a rebate for traders
+    to hold positions. This mechanism balances the buyer and seller demand for
+    the perpetual swap so that its price falls in line with the underlying
+    asset.
+
+
+    It can sound intimidating without the context provided above, but given all
+    of these advantages, you can see how powerful perpetual swaps can be for
+    traders. Now, add in the fact that you can take on a position with varying
+    degrees of leverage (did someone say 100x?), and you can see why all of
+    these properties have driven perpetual swaps into the spotlight as the
+    darling of the crypto trading ecosystem.
+
+
+
+    Cool, but show me an example!
+
+    Fair enough! To give you a concrete example of how perpetual swaps work,
+    we’ll take a look at the 2019 activities of hypothetical trader Alice, who
+    believed the price of Ethereum would go up and wanted to find a smart way to
+    execute her trade.
+
+
+    At the start of April 2019, BTC/USD was trading at roughly $4,000. Alice
+    wanted to bet on a rise in Ethereum price relative to USD, so she bought 2
+    BTC/USD perpetual swap contracts using $8,000 of collateral.
+
+
+    ```
+
+    $8000 / $4000 = 2 BTC/USD perpetual swap contracts
+
+    ```
+
+
+    Until the end of June 2019, the Ethereum spot price steadily rose in dollar
+    value to about $14,000. As part of the funding rate tethering mechanism
+    (this is how a perpetual swap stays close in price to the underlying asset),
+    Alice periodically lost a fee or received a rebate to her account. We
+    describe this further below, and will in much greater detail in a separate
+    post, so don’t worry if this doesn’t make perfect sense yet!
+
+
+    Alice, being a hypothetical trader, timed the market very well. She
+    eventually closed her position after almost 3 months at the local maximum of
+    $14,000. In this scenario, her profits, not considering the periodic funding
+    rate fees or rebates, were $20,000.
+
+
+    ```
+
+    profit = position_size * (current_price - entry_price)
+
+    profit = 2 * (14,000 - 4,000)
+
+    profit = 20,000
+
+    ```
+
+    Nicely done, Alice! She did this all without ever holding any Ethereum at
+    any point.
+
+
+    The bottom line
+
+    Perpetual swaps are a cleverly-designed derivative type that have taken the
+    market by storm, dominating volumes on most of the leading exchanges. It
+    combines desirable qualities of the spot and futures markets, and enables
+    traders to use high leverage without the headache of rolling over expiring
+    futures contracts. As with any leveraged trade, especially with volatile
+    assets like Ethereum, these trades can be risky! Make sure you understand
+    them in full before participating.
+
+
 
     ## What is Funding Rate?
 
