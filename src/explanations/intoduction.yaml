@@ -88,6 +88,40 @@
     (not accounting for the interest rate component).
 
 
+    ## Funding Rate Math
+
+    High level calculation for getting funding rate should be same across
+    various exchanges. Here is how funding rate is calculated in dydx exchange
+
+
+    The main component of the funding rate is a premium that takes into account
+    market activity for the perpetual. It is calculated for each market, every
+    minute (at a random point within the minute) using the formula:
+
+
+    `Premium = (Max(0, Impact Bid Price - Index Price) - Max(0, Index Price -
+    Impact Ask Price)) / Index Price`
+
+
+    Where the impact bid and impact ask prices are defined as:
+
+
+    ```
+
+    Impact Bid Price = Average execution price for a market sell of the impact
+    notional value 
+
+    Impact Ask Price = Average execution price for a market buy of the impact
+    notional value
+
+    ```
+
+    And the impact notional amount for a market is:
+
+
+    `Impact Notional Amount = 500 USDC / Initial Margin Fraction`
+
+
     ## When Market rate is more than index price?
 
     When the market is too bullish about an underlying asset, the price gets
