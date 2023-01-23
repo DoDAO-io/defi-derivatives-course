@@ -69,8 +69,8 @@
     are short. When the rate is negative (perpetual trades at a discount
     relative to index), this is reversed and shorts will pay longs. Traders make
     or receive payments in proportion to the size of their market position.
-    These payments are exchanged solely between traders, and are neither paid
-    nor received by the exchange.
+    **These payments are exchanged solely between traders, and are neither paid
+    nor received by the exchange.**
 
 
     The funding rate is designed to keep the price of each perpetual market
@@ -90,9 +90,23 @@
 
     ## When Market rate is more than index price?
 
+    When the market is too bullish about an underlying asset, the price gets
+    driven up. When this happens, longs pay shorts, which encourages more
+    traders to sell or go short, and drives the price down. 
+
+
+    This presents a nice opportunity to arbitrators or people who want to take
+    the short side. They get the funding rate as the discount.
 
     ## When Market rate is less than index price?
 
+    This can happen when too many people are bearish about the underlying asset.
+    When the price gets too low, shorts pay long, which encourages more traders
+    to sell or go long, driving the price up. 
+
+
+    This presents nice opportunity to arbitrators or people who want to take the
+    long side and they get the funding rate as the discount. 
 
 
     ## References
