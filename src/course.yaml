@@ -9,7 +9,10 @@ highlights:
 publishStatus: Live
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/CourseIcons/derivatives_course.png
-details: In this course we first ....
+details: |-
+  # Coming Soon
+
+  This course will be ready in next two weeks
 duration: 30 mins - 1 hour
 topics:
   - key: intoduction
@@ -19,3 +22,6 @@ topics:
     explanations: intoduction.yaml
 courseAdmins: []
 coursePassContent: Pass content of Course !!!!!!!!!!
+topicConfig:
+  showExplanations: false
+  showHints: false

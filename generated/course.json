@@ -2,7 +2,7 @@
   "key": "derivatives-in-defi",
   "title": "Derivatives In DeFi",
   "summary": "This course talks about how derivatives work in DeFi\n",
-  "details": "In this course we first ....",
+  "details": "# Coming Soon\n\nThis course will be ready in next two weeks",
   "duration": "30 mins - 1 hour",
   "highlights": [
     "Introduction",
@@ -31,5 +31,9 @@
       "readings": [],
       "summaries": []
     }
-  ]
+  ],
+  "topicConfig": {
+    "showExplanations": false,
+    "showHints": false
+  }
 }
