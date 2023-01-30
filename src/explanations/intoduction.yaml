@@ -43,6 +43,33 @@
   title: Options
   shortTitle: Options
   details: >-
+    ## What are Options?
+
+    Options are a flexible financial tool that consists of a buyer and a seller.
+    The buyer pays a premium for the rights granted by the contract, which gives
+    them the option to buy or sell the underlying asset, depending on the type
+    of option. Options are financial derivatives that provide the buyer with the
+    right, but not the obligation, to buy or sell the underlying asset at a
+    predetermined price and date.
+
+
+    Call and put options are the foundation of various option strategies used
+    for hedging, generating income, or speculation. 
+
+
+    Call options give the holder the right to buy the asset at a set price
+    within a specific time frame, while put options provide the right to sell
+    the asset at a set price within a set time frame. Buyers of call options are
+    bullish, while sellers are bearish, and buyers of put options are bearish,
+    while sellers are bullish.
+
+
+    Options contracts have a set expiration date, and the predetermined price is
+    known as the strike price. These contracts can be bought and sold through
+    retail or online brokers. Options trading can be used for both risk
+    management and speculation, with strategies varying from simple to complex.
+
+
     ## Important Terms
 
     **Option** - a contract that gives the holder the right to buy or sell an
