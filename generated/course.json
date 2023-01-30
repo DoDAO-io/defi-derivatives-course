@@ -341,7 +341,7 @@
         {
           "key": "leverage",
           "shortTitle": "Leverage",
-          "details": "- https://dydx.exchange/blog/leverage-intuition\n- https://help.dydx.exchange/en/articles/5108521-understanding-your-account-balance-leverage\n- https://dydx.exchange/blog/max-leverage-reduction\n- https://help.dydx.exchange/en/articles/4797403-maximum-leverage-for-perpetuals",
+          "details": "Leverage is the term used to describe how much of your position is being borrowed. The higher the leverage, the less funds you need to deposit as margin and the more you can borrow to open your position. Borrowing more funds comes with more risk, amplifying both your gains and losses, while also making it easier for your position to be liquidated at a loss.\n\n## Example\nTo open your position, you’ll need to have enough funds in your main account to cover the margin deposit. As an example, let’s say you want to open a 5X LONG position on ETH-USDC with a position size of 1.0000 ETH. The margin deposit for this position is 0.2 ETH, so you’ll need to have at least 0.2 ETH in your account to open this position.\n\n\n### References\n- https://dydx.exchange/blog/leverage-intuition\n- https://help.dydx.exchange/en/articles/5108521-understanding-your-account-balance-leverage\n- https://dydx.exchange/blog/max-leverage-reduction\n- https://help.dydx.exchange/en/articles/4797403-maximum-leverage-for-perpetuals",
           "title": "Leverage"
         },
         {
