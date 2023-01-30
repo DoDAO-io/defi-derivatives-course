@@ -40,3 +40,25 @@
       key: c92a4980
     - content: Future option
       key: 705eb831
+- uuid: d5c93655-afe2-43d1-b687-d5b7ca84969f
+  type: SingleChoice
+  content: >-
+    Which of the following is NOT a common underlying asset for options
+    derivatives?
+  hint: NoHint
+  explanation: >-
+    The most common underlying assets for derivatives are stocks, bonds,
+    commodities, currencies, interest rates, and market indexes.
+  answerKeys:
+    - 2bf56e16
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Commodities
+      key: A
+    - content: Real estate
+      key: 2bf56e16
+    - content: Stocks
+      key: ec640c7c
+    - content: Interest rates
+      key: e74badf5
