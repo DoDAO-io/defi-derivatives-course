@@ -1,0 +1,180 @@
+## Header
+This is the course header. This will be added on top of every page. Go to [DoDAO.io](https://www.dodao.io) to know more.
+
+ ---
+ 
+ ## Intoduction
+ 
+ **Derivatives and Importance**        
+A derivative is a type of financial contract that gets its value from an underlying asset, a group of assets, or benchmark.
+
+Derivative prices are based on changes in the value of the underlying asset. By using these financial securities, investors can trade in different markets and reduce their risk exposure. For example, if an investor is worried about a stock price going down, they could buy a put option, which would give them the right to sell the stock at a set price, no matter how low the stock price goes. 
+
+Derivatives can be utilized to bet on future shifts in asset prices. As an example, a call option could be purchased by an investor, giving them the option to buy shares at a predetermined price, with the aim of profiting by selling the shares if the stock price rises.
+
+Commonly used assets as the basis for derivatives include stocks, bonds, commodities, currencies, interest rates, and market indexes. The value of the contracts is influenced by changes in the price of the underlying asset.
+
+Derivatives can be used to hedge a position, speculate on the directional movement of an underlying asset, or give leverage to holdings.
+
+Derivative products can be classified into two categories: "lock" and "option." Lock products like futures, forwards, or swaps require both parties to stick to the agreed terms throughout the contract. Option products, such as stock options, give the holder the choice to buy or sell the underlying asset at a set price before the option's expiration, but are not mandatory
+
+The most common derivative types are futures, forwards, swaps, and options. The most commonly traded derivates are futures and options. 
+ **Options**        
+## What are Options?
+Options are a flexible financial tool that consists of a buyer and a seller. The buyer pays a premium for the rights granted by the contract, which gives them the option to buy or sell the underlying asset, depending on the type of option. Options are financial derivatives that provide the buyer with the right, but not the obligation, to buy or sell the underlying asset at a predetermined price and date.
+
+Call and put options are the foundation of various option strategies used for hedging, generating income, or speculation. 
+
+Call options give the holder the right to buy the asset at a set price within a specific time frame, while put options provide the right to sell the asset at a set price within a set time frame. Buyers of call options are bullish, while sellers are bearish, and buyers of put options are bearish, while sellers are bullish.
+
+Options contracts have a set expiration date, and the predetermined price is known as the strike price. These contracts can be bought and sold through retail or online brokers. Options trading can be used for both risk management and speculation, with strategies varying from simple to complex.
+
+## Important Terms
+**Option** - a contract that gives the holder the right to buy or sell an underlying asset at a set price.
+
+**Strike price** - the set price at which the option can be exercised.
+
+**Expiration date** - the date when the option contract expires.
+
+**Call option** - a type of option that gives the holder the right to buy the underlying asset.
+
+**Put option** - a type of option that gives the holder the right to sell the underlying asset.
+
+**Underlying asset** - the security or commodity underlying the option contract.
+
+**Premium** - the price paid for an option.
+
+**Delta** - the rate of change of an option's price relative to the price change of the underlying asset.
+
+**Long position** - owning an option or underlying asset.
+
+**Short position** - the sale of an option or underlying asset not owned by the seller.
+
+## Options Types
+
+#### Calls:
+- Give the holder the right to buy the underlying security at the strike price before expiration.
+- Increase in value as underlying security rises in price (positive delta).
+- Used to speculate on price rise, unlimited upside but max loss is option premium.
+
+#### Puts:
+- Give the holder the right to sell the underlying security at the strike price before expiration.
+- Increase in value as underlying security falls in price (negative delta).
+- Used for hedging, protective puts provide a price floor for investors.
+
+## Example
+An example of using options in finance would be an investor who owns stock in a company and is concerned about a potential market downturn. The investor can purchase a put option, giving them the right to sell their stock at a set price in the future, regardless of the market conditions. This provides the investor with a "floor" for the stock's value, limiting their potential losses in the event of a market downturn.
+
+Another example is a speculative investor who believes a particular stock will increase in value. Instead of purchasing the stock outright, the investor can purchase a call option, giving them the right to buy the stock at a set price in the future. If the stock's value increases, the call option will increase in value as well, allowing the investor to sell it for a profit.
+
+In both cases, the options contract allows the investor to potentially benefit from market movements while limiting their downside risk. 
+ **Futures**        
+Futures derivatives are financial contracts that obligate the buyer to purchase an underlying asset (such as a commodity, currency, or security) at a predetermined price on a specified date in the future. Futures contracts are used for hedging against price fluctuations, speculation, and managing risk in financial markets. 
+
+**Unlike options, which give the holder the right, but not the obligation, to buy or sell an underlying asset, futures contracts are binding and must be settled on the specified date, regardless of the current market conditions.**
+
+Future contracts are created by financial institutions, such as exchanges, banks, and brokerages. They act as intermediaries between buyers and sellers, and provide a centralized platform for trading future contracts. Exchanges such as the Chicago Mercantile Exchange (CME) and the Intercontinental Exchange (ICE) are well-known providers of futures contracts.
+
+The terms and specifications of future contracts, such as the underlying asset, delivery date, and price, are determined by the exchange and are standardized for each type of contract. This makes it easier for buyers and sellers to trade future contracts, as they know exactly what they are getting into when they enter into a contract.
+
+Financial institutions that create future contracts also provide clearing and settlement services, which ensure that both parties fulfill their obligations under the contract. This helps to reduce the risk of default and increase the overall stability of the market.
+
+## Example
+An example of a future contract is a farmer who is worried about the price of corn dropping before the harvest. The farmer can enter into a futures contract to sell a certain amount of corn at a predetermined price on a specified date in the future. This allows the farmer to lock in a profitable price for their crop, even if the actual market price drops.
+
+On the other side, a cereal manufacturer might be worried about the price of corn increasing, which would make it more expensive to produce their cereal. The cereal manufacturer can enter into a futures contract to buy corn at a predetermined price on a specified date in the future. This allows the manufacturer to lock in a lower price for their input, even if the actual market price increases.
+
+Both the farmer and the cereal manufacturer benefit from entering into a futures contract, as they are able to hedge against price fluctuations and manage their risk.
+
+## Important Terms
+**Futures contract** - an agreement to buy or sell an underlying asset at a predetermined price in the future.
+
+**Underlying asset** - the commodity, security, or index underlying the futures contract.
+
+**Delivery date** - the date when the underlying asset must be delivered or the contract settled.
+
+**Settlement price** - the price at which the futures contract is settled or the underlying asset is delivered.
+
+**Long position** - buying a futures contract.
+
+
+**Short position** - selling a futures contract.
+
+**Margin** - the collateral required to hold a futures position.
+
+**Marking to market** - the process of adjusting the value of a futures contract to its current market price.
+
+**Open interest** - the total number of outstanding futures contracts for a specific underlying asset.
+
+**Basis** - the difference between the futures price and the spot price of the underlying asset.
+
+## Advantages
+- Future derivatives include the ability to hedge against price fluctuations, to manage risk, and to speculate on market movements
+- They also provide liquidity and allow traders to take positions with a relatively small amount of capital compared to the underlying assets.
+
+## Disadvantages of using future derivatives 
+- The potential for unlimited losses and the fact that they are binding contracts that must be settled on the specified date, regardless of market conditions. 
+- Margin account with high amount of funds might be needed to be able to trade futures  
+ **Perpetual Futures**        
+## Introduction
+Perpetual Swaps is a new derivative product that gained a lot of traction in crypto world. In fact in Crypto perpetual swaps is the most traded derivatives. "Perpetual Swaps" are also know with the name "Perpetual Contracts" or "Perpetual Futures". 
+
+## What are Perpetual Futures/Swaps?
+Perpetual swaps are derivatives that let you buy or sell the value of something (that something is usually called an “underlying asset”) with several advantages: 
+1. There is no expiry date to your position (i.e., you can hold it as long as you want) 
+2. The underlying asset itself is never traded (meaning no custody issues)
+3. The swap price closely tracks the price of the underlying asset
+4. It’s easy to long or short
+5. You can apply use leverage also. Some exchanges provide up to 25x leverage.
+
+## How Perpetual Swaps work?
+If you want to bet on the price of Ethereum going up, you have several options. You could go to a spot exchange and purchase actual Ethereum with your funds at the specified exchange rate. This immediately transfers Ethereum into your possession for however long you’d like. Or you could go to the derivatives markets and buy an options or futures contract. These contracts do not immediately settle or transfer any Ethereum to you, but they do allow you to increase your exposure to Ethereum's price movements (i.e., using derivatives, you can speculate on Ethereum's price movements to make more profit than you would otherwise be able to on the spot markets). However, options and futures contracts do have expiration dates. So for traders who want to use derivatives but don't want to constantly manage their positions, there's another option: the "Perpetual Swap". This type of contract dominates the crypto markets because it doesn't have an expiration date.
+
+
+Perpetual swap is a new derivative as of recent years. It does not have an expiry date and also does not have a settlement date, meaning the position can be held forever. The underlying asset is never involved directly, so one can be exposed to an asset’s price movements without having to actually hold or borrow the asset. Unlike futures contracts where the price could differ from the spot underlying price (which is commonly referred to as basis), perpetual swaps are always closely pegged to the underlying they track. This is accomplished by using a funding rate mechanism, which can be thought of as either a fee or a rebate that traders receive for holding positions. This mechanism balances the demand from buyers and sellers so that the price of the perpetual swap falls in line with the underlying asset.
+
+## What is Funding Rate?
+Funding is calculated based on the Index Price and sampled Mid-Market Prices for the perpetual. When the rate is positive (perpetual trades at a premium relative to index), traders who are long will make payments to traders who are short. When the rate is negative (perpetual trades at a discount relative to index), this is reversed and shorts will pay longs. Traders make or receive payments in proportion to the size of their market position. **These payments are exchanged solely between traders, and are neither paid nor received by the exchange.**
+
+The funding rate is designed to keep the price of each perpetual market close to its Index Price. When the price gets too high, longs pay shorts, which encourages more traders to sell or go short, driving the price down. When the price gets too low, shorts pay longs, which encourages more traders to buy or go long, driving the price up.
+
+Funding rates are calculated by taking into account the premium, which is scaled to have a realization period of 8 hours. What this means is that, for example, if a perpetual market trades at a 0.1% premium relative to the underlying asset, long traders can expect to pay approximately 0.1% every 8 hours, while short traders can expect to earn a 0.1% return every 8 hours (not accounting for the interest rate component).
+
+## Funding Rate Math
+High level calculation for getting funding rate should be same across various exchanges. Here is how funding rate is calculated in dydx exchange
+
+The main component of the funding rate is a premium that takes into account market activity for the perpetual. It is calculated for each market, every minute (at a random point within the minute) using the formula:
+
+`Premium = (Max(0, Impact Bid Price - Index Price) - Max(0, Index Price - Impact Ask Price)) / Index Price`
+
+Where the impact bid and impact ask prices are defined as:
+
+```
+Impact Bid Price = Average execution price for a market sell of the impact notional value 
+Impact Ask Price = Average execution price for a market buy of the impact notional value
+```
+And the impact notional amount for a market is:
+
+`Impact Notional Amount = 500 USDC / Initial Margin Fraction`
+
+## When Market rate is more than index price?
+When the market is too bullish about an underlying asset, the price gets driven up. When this happens, longs pay shorts, which encourages more traders to sell or go short, and drives the price down. 
+
+This presents a nice opportunity to arbitrators or people who want to take the short side. They get the funding rate as the discount.
+## When Market rate is less than index price?
+This can happen when too many people are bearish about the underlying asset. When the price gets too low, shorts pay long, which encourages more traders to sell or go long, driving the price up. 
+
+This presents nice opportunity to arbitrators or people who want to take the long side and they get the funding rate as the discount. 
+
+## References
+- https://help.dydx.exchange/en/articles/4797443-perpetual-funding-rate
+- https://medium.com/derivadex/what-are-perpetual-swaps-130236587df2
+- https://www.youtube.com/watch?v=h2JwNNkGGlg&list=RDLVh2JwNNkGGlg&start_radio=1
+- https://www.youtube.com/watch?v=67QT5hrGl3A
+- https://www.coindesk.com/learn/what-is-a-perpetual-swap-contract/
+- https://www.youtube.com/watch?v=wfx78LWd3PM
+- https://academy.binance.com/en/articles/what-are-perpetual-futures-contracts
+- https://www.youtube.com/watch?v=01BPptRKc9o
+- https://www.youtube.com/watch?v=mUvsWekvkV8
+- https://www.coinglass.com/FundingRate 
+ 
