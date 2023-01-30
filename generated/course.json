@@ -341,7 +341,7 @@
         {
           "key": "leverage",
           "shortTitle": "Leverage",
-          "details": "- https://help.dydx.exchange/en/articles/5108521-understanding-your-account-balance-leverage\n- https://help.dydx.exchange/en/articles/4797403-maximum-leverage-for-perpetuals",
+          "details": "- https://dydx.exchange/blog/leverage-intuition\n- https://help.dydx.exchange/en/articles/5108521-understanding-your-account-balance-leverage\n- https://dydx.exchange/blog/max-leverage-reduction\n- https://help.dydx.exchange/en/articles/4797403-maximum-leverage-for-perpetuals",
           "title": "Leverage"
         }
       ],
