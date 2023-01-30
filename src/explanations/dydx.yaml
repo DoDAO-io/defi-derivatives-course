@@ -57,13 +57,32 @@
     also making it easier for your position to be liquidated at a loss.
 
 
-    ## Example
+    ## Simulation
 
-    To open your position, you’ll need to have enough funds in your main account
-    to cover the margin deposit. As an example, let’s say you want to open a 5X
-    LONG position on ETH-USDC with a position size of 1.0000 ETH. The margin
-    deposit for this position is 0.2 ETH, so you’ll need to have at least 0.2
-    ETH in your account to open this position.
+    dYdX has an excellent
+    [article](https://dydx.exchange/blog/leverage-intuition) on risks involved
+    in leverage
+
+
+    The purpose of the article is to assist beginners in gaining an
+    understanding of leverage trading and to equip them with the ability to
+    minimize risk by adjusting their position sizes in relation to their
+    collateral balances. By considering a hypothetical scenario, the article
+    aims to provide intuition on appropriate leverage usage. 
+
+
+    In the scenario, it is assumed that the expected return for Ether over the
+    next year is +30%, and a trader has $1000 to invest. The idea of using high
+    leverage to maximize gain is tempting, but the volatility of ETH is also
+    considered to avoid liquidation. Through simulation, it is shown that using
+    5x leverage results in liquidation in 70% of the return paths, with many
+    successful paths being liquidated before reaching their full potential. 
+
+
+    The article concludes by acknowledging that leverage can be beneficial in
+    certain cases, such as for creating capital-efficient positions in hedged
+    portfolios.
+
 
 
 
