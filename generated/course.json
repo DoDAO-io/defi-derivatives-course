@@ -70,6 +70,36 @@
               "key": "5e50ac45"
             }
           ]
+        },
+        {
+          "uuid": "73b57c9f-e967-4c48-84d5-fa8d24598a00",
+          "type": "SingleChoice",
+          "content": "What type of option gives the holder the right, but not the obligation, to buy an underlying asset at a predetermined price?",
+          "hint": "NoHint",
+          "explanation": "Call options are financial contracts that give the option buyer the right but not the obligation to buy a stock, bond, commodity, or other asset or instrument at a specified price within a specific time period. ",
+          "answerKeys": [
+            "5c9e7de3"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": " Put option",
+              "key": "A"
+            },
+            {
+              "content": "Call option",
+              "key": "5c9e7de3"
+            },
+            {
+              "content": "Swap option",
+              "key": "c92a4980"
+            },
+            {
+              "content": "Future option",
+              "key": "705eb831"
+            }
+          ]
         }
       ],
       "readings": [],
