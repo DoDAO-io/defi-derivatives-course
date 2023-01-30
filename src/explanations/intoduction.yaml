@@ -1,50 +1,37 @@
 - key: derivatives-and-importance
   title: Derivatives and Importance
   shortTitle: Derivatives
-  details: >
-    Financial derivatives are financial instruments that are linked to a
-    specific financial instrument or indicator or commodity, and through which
-    specific financial risks can be traded in financial markets in their own
-    right. Transactions in financial derivatives should be treated as separate
-    transactions rather than as integral parts of the value of underlying
-    transactions to which they may be linked. The value of a financial
-    derivative derives from the price of an underlying item, such as an asset or
-    index. Unlike debt instruments, no principal amount is advanced to be repaid
-    and no investment income accrues. Financial derivatives are used for a
-    number of purposes including risk management, hedging, arbitrage between
-    markets, and speculation.
+  details: >+
+    Derivative refers to a type of financial contract whose value is dependent
+    on an underlying asset, group of assets, or benchmark. 
 
 
-    Financial derivatives enable parties to trade specific financial risks (such
-    as interest rate risk, currency, equity and commodity price risk, and credit
-    risk, etc.) to other entities who are more willing, or better suited, to
-    take or manage these risks—typically, but not always, without trading in a
-    primary asset or commodity. The risk embodied in a derivatives contract can
-    be traded either by trading the contract itself, such as with options, or by
-    creating a new contract which embodies risk characteristics that match, in a
-    countervailing manner, those of the existing contract owned. This latter is
-    termed offsetability, and occurs in forward markets. Offsetability means
-    that it will often be possible to eliminate the risk associated with the
-    derivative by creating a new, but "reverse", contract that has
-    characteristics that countervail the risk of the first derivative. Buying
-    the new derivative is the functional equivalent of selling the first
-    derivative, as the result is the elimination of risk. The ability to replace
-    the risk on the market is therefore considered the equivalent of tradability
-    in demonstrating value. The outlay that would be required to replace the
-    existing derivative contract represents its value—actual offsetting is not
-    required to demonstrate value.
+    Prices for derivatives derive from fluctuations in the underlying asset.
+    These financial securities are commonly used to access certain markets and
+    may be traded to hedge against risk. Derivatives can be used to either
+    mitigate risk (hedging) or assume risk with the expectation of commensurate
+    reward (speculation). Derivatives can move risk (and the accompanying
+    rewards) from the risk-averse to the risk seekers.
 
 
-    Financial derivatives contracts are usually settled by net payments of cash.
-    This often occurs before maturity for exchange traded contracts such as
-    commodity futures. Cash settlement is a logical consequence of the use of
-    financial derivatives to trade risk independently of ownership of an
-    underlying item. However, some financial derivative contracts, particularly
-    involving foreign currency, are associated with transactions in the
-    underlying item.
+    The most common underlying assets for derivatives are stocks, bonds,
+    commodities, currencies, interest rates, and market indexes. Contract values
+    depend on changes in the prices of the underlying asset.
 
 
-    -----
+    Derivatives can be used to hedge a position, speculate on the directional
+    movement of an underlying asset, or give leverage to holdings.
+
+
+    There are two classes of derivative products: "lock" and "option." Lock
+    products (e.g., futures, forwards, or swaps) bind the respective parties
+    from the outset to the agreed-upon terms over the life of the contract.
+    Option products (e.g., stock options), on the other hand, offer the holder
+    the right, but not the obligation, to buy or sell the underlying asset or
+    security at a specific price on or before the option's expiration date. The
+    most common derivative types are futures, forwards, swaps, and options.
+
+
 - key: perpetual-futures
   title: Perpetual Futures
   shortTitle: Perpetual Futures
