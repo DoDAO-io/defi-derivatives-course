@@ -46,9 +46,15 @@ topics:
       leverage on a futures contract. 
 
 
-      In this module of the course, we will cover how to trade perpetual
-      contracts in dYdX, how to take long or short positions, how leverage works
-      in dYdX, and the types of orders that can be executed using the protocol.
+      In this module of the course, we will cover 
+
+      - How to trade perpetual contracts in dYdX
+
+      - How to take long or short positions
+
+      - How leverage works in dYdX
+
+      - The types of orders that can be executed using the protocol.
 courseAdmins: []
 coursePassContent: Pass content of Course !!!!!!!!!!
 topicConfig:
