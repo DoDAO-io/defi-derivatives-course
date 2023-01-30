@@ -47,10 +47,12 @@
     purchase an underlying asset (such as a commodity, currency, or security) at
     a predetermined price on a specified date in the future. Futures contracts
     are used for hedging against price fluctuations, speculation, and managing
-    risk in financial markets. Unlike options, which give the holder the right,
-    but not the obligation, to buy or sell an underlying asset, futures
-    contracts are binding and must be settled on the specified date, regardless
-    of the current market conditions.
+    risk in financial markets. 
+
+
+    Unlike options, which give the holder the right, but not the obligation, to
+    buy or sell an underlying asset, futures contracts are binding and must be
+    settled on the specified date, regardless of the current market conditions.
 
 
 
