@@ -32,6 +32,16 @@
     most common derivative types are futures, forwards, swaps, and options.
 
 
+- key: futures
+  shortTitle: Futures
+  details: |-
+    Futures
+
+    Futures
+
+
+    Futures
+  title: Futures
 - key: perpetual-futures
   title: Perpetual Futures
   shortTitle: Perpetual Futures
@@ -200,13 +210,3 @@
     - https://www.youtube.com/watch?v=mUvsWekvkV8
 
     - https://www.coinglass.com/FundingRate
-- key: futures
-  shortTitle: Futures
-  details: |-
-    Futures
-
-    Futures
-
-
-    Futures
-  title: Futures
