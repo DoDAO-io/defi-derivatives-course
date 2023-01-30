@@ -256,6 +256,36 @@
               "key": "58c919c5"
             }
           ]
+        },
+        {
+          "uuid": "de5c422c-7341-4088-9ae1-3de2ab350bf4",
+          "type": "SingleChoice",
+          "content": "What makes it easier for buyers and sellers to trade future contracts?\n",
+          "hint": "NoHint",
+          "explanation": "Financial institutions that create future contracts also provide clearing and settlement services, which ensure that both parties fulfill their obligations under the contract. This helps to reduce the risk of default and increase the overall stability of the market.\n\n",
+          "answerKeys": [
+            "e34a835a"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The terms and specifications of future contracts being determined by the exchange",
+              "key": "A"
+            },
+            {
+              "content": "The clearing and settlement services provided by financial institutions",
+              "key": "e34a835a"
+            },
+            {
+              "content": " The obligation to buy or sell an underlying asset",
+              "key": "9859de2d"
+            },
+            {
+              "content": "Individual consideration to each trader",
+              "key": "520c80d3"
+            }
+          ]
         }
       ],
       "readings": [],
