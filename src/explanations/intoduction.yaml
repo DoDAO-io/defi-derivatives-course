@@ -130,6 +130,28 @@
     - Increase in value as underlying security falls in price (negative delta).
 
     - Used for hedging, protective puts provide a price floor for investors.
+
+
+    ## Example
+
+    An example of using options in finance would be an investor who owns stock
+    in a company and is concerned about a potential market downturn. The
+    investor can purchase a put option, giving them the right to sell their
+    stock at a set price in the future, regardless of the market conditions.
+    This provides the investor with a "floor" for the stock's value, limiting
+    their potential losses in the event of a market downturn.
+
+
+    Another example is a speculative investor who believes a particular stock
+    will increase in value. Instead of purchasing the stock outright, the
+    investor can purchase a call option, giving them the right to buy the stock
+    at a set price in the future. If the stock's value increases, the call
+    option will increase in value as well, allowing the investor to sell it for
+    a profit.
+
+
+    In both cases, the options contract allows the investor to potentially
+    benefit from market movements while limiting their downside risk.
 - key: futures
   title: Futures
   shortTitle: Futures
