@@ -168,36 +168,6 @@
           ]
         },
         {
-          "uuid": "749de89d-721d-41ca-9485-c23a7a5c54dc",
-          "type": "SingleChoice",
-          "content": "What is the purpose of the funding rate?\n",
-          "hint": "NoHint",
-          "explanation": "The funding rate is designed to keep the price of each perpetual market close to its Index Price.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "To keep the price of the perpetual swap close to its Index Price",
-              "key": "A"
-            },
-            {
-              "content": "To encourage more traders to buy or go long",
-              "key": "4e0ac973"
-            },
-            {
-              "content": "To encourage more traders to sell or go short",
-              "key": "0e8d7a21"
-            },
-            {
-              "content": "To prevent too many trades",
-              "key": "0fd0210a"
-            }
-          ]
-        },
-        {
           "uuid": "565c0e71-ef14-414c-8d43-0fff5ba9609d",
           "type": "SingleChoice",
           "content": "What are futures derivatives?\n",
@@ -224,6 +194,36 @@
             {
               "content": "Financial contracts that reduce the risk of default",
               "key": "06f31d3a"
+            }
+          ]
+        },
+        {
+          "uuid": "749de89d-721d-41ca-9485-c23a7a5c54dc",
+          "type": "SingleChoice",
+          "content": "What is the purpose of the funding rate?\n",
+          "hint": "NoHint",
+          "explanation": "The funding rate is designed to keep the price of each perpetual market close to its Index Price.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "To keep the price of the perpetual swap close to its Index Price",
+              "key": "A"
+            },
+            {
+              "content": "To encourage more traders to buy or go long",
+              "key": "4e0ac973"
+            },
+            {
+              "content": "To encourage more traders to sell or go short",
+              "key": "0e8d7a21"
+            },
+            {
+              "content": "To prevent too many trades",
+              "key": "0fd0210a"
             }
           ]
         },
