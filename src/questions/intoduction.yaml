@@ -181,3 +181,29 @@
       key: 9859de2d
     - content: Individual consideration to each trader
       key: 520c80d3
+- uuid: 565c0e71-ef14-414c-8d43-0fff5ba9609d
+  type: SingleChoice
+  content: |
+    What are futures derivatives?
+  hint: NoHint
+  explanation: >-
+    Futures derivatives are financial contracts that obligate the buyer to
+    purchase an underlying asset (such as a commodity, currency, or security) at
+    a predetermined price on a specified date in the future. 
+  answerKeys:
+    - A
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: >-
+        Financial contracts that obligate the buyer to purchase an underlying
+        asset at a predetermined price on a specified date
+      key: A
+    - content: >-
+        Financial contracts that give the holder the option to buy or sell an
+        underlying asset
+      key: dd349a6b
+    - content: Financial contracts that promise fixed interest
+      key: 713855bf
+    - content: Financial contracts that reduce the risk of default
+      key: 06f31d3a
