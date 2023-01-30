@@ -286,3 +286,29 @@
     - https://www.youtube.com/watch?v=mUvsWekvkV8
 
     - https://www.coinglass.com/FundingRate
+- key: options
+  shortTitle: Options
+  details: >-
+    ## Options Types
+
+
+    #### Calls:
+
+    - Give the holder the right to buy the underlying security at the strike
+    price before expiration.
+
+    - Increase in value as underlying security rises in price (positive delta).
+
+    - Used to speculate on price rise, unlimited upside but max loss is option
+    premium.
+
+
+    #### Puts:
+
+    - Give the holder the right to sell the underlying security at the strike
+    price before expiration.
+
+    - Increase in value as underlying security falls in price (negative delta).
+
+    - Used for hedging, protective puts provide a price floor for investors.
+  title: Options
