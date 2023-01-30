@@ -50,9 +50,10 @@
     risk in financial markets. 
 
 
-    Unlike options, which give the holder the right, but not the obligation, to
-    buy or sell an underlying asset, futures contracts are binding and must be
-    settled on the specified date, regardless of the current market conditions.
+    **Unlike options, which give the holder the right, but not the obligation,
+    to buy or sell an underlying asset, futures contracts are binding and must
+    be settled on the specified date, regardless of the current market
+    conditions.**
 
 
     Future contracts are created by financial institutions, such as exchanges,
