@@ -39,6 +39,32 @@
 
     The most common derivative types are futures, forwards, swaps, and options.
     The most commonly traded derivates are futures and options.
+- key: options
+  shortTitle: Options
+  details: >-
+    ## Options Types
+
+
+    #### Calls:
+
+    - Give the holder the right to buy the underlying security at the strike
+    price before expiration.
+
+    - Increase in value as underlying security rises in price (positive delta).
+
+    - Used to speculate on price rise, unlimited upside but max loss is option
+    premium.
+
+
+    #### Puts:
+
+    - Give the holder the right to sell the underlying security at the strike
+    price before expiration.
+
+    - Increase in value as underlying security falls in price (negative delta).
+
+    - Used for hedging, protective puts provide a price floor for investors.
+  title: Options
 - key: futures
   title: Futures
   shortTitle: Futures
@@ -118,32 +144,6 @@
 
     - Margin account with high amount of funds might be needed to be able to
     trade futures 
-- key: options
-  shortTitle: Options
-  details: >-
-    ## Options Types
-
-
-    #### Calls:
-
-    - Give the holder the right to buy the underlying security at the strike
-    price before expiration.
-
-    - Increase in value as underlying security rises in price (positive delta).
-
-    - Used to speculate on price rise, unlimited upside but max loss is option
-    premium.
-
-
-    #### Puts:
-
-    - Give the holder the right to sell the underlying security at the strike
-    price before expiration.
-
-    - Increase in value as underlying security falls in price (negative delta).
-
-    - Used for hedging, protective puts provide a price floor for investors.
-  title: Options
 - key: perpetual-futures
   title: Perpetual Futures
   shortTitle: Perpetual Futures
