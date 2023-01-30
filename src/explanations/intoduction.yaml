@@ -163,6 +163,44 @@
     manage their risk.
 
 
+    ## Important Terms
+
+    **Futures contract** - an agreement to buy or sell an underlying asset at a
+    predetermined price in the future.
+
+
+    **Underlying asset** - the commodity, security, or index underlying the
+    futures contract.
+
+
+    **Delivery date** - the date when the underlying asset must be delivered or
+    the contract settled.
+
+
+    **Settlement price** - the price at which the futures contract is settled or
+    the underlying asset is delivered.
+
+
+    **Long position** - buying a futures contract.
+
+
+
+    **Short position** - selling a futures contract.
+
+
+    **Margin** - the collateral required to hold a futures position.
+
+
+    **Marking to market** - the process of adjusting the value of a futures
+    contract to its current market price.
+
+
+    **Open interest** - the total number of outstanding futures contracts for a
+    specific underlying asset.
+
+
+    **Basis** - the difference between the futures price and the spot price of
+    the underlying asset.
 
 
     ## Advantages
