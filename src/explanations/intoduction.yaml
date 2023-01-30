@@ -1,7 +1,7 @@
 - key: derivatives-and-importance
   title: Derivatives and Importance
   shortTitle: Derivatives
-  details: >+
+  details: >
     Derivative refers to a type of financial contract whose value is dependent
     on an underlying asset, group of assets, or benchmark. 
 
@@ -32,6 +32,11 @@
     most common derivative types are futures, forwards, swaps, and options.
 
 
+
+
+    #### References
+
+    - https://www.investopedia.com/terms/d/derivative.asp
 - key: futures
   shortTitle: Futures
   details: |-
