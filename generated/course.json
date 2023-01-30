@@ -138,36 +138,6 @@
           ]
         },
         {
-          "uuid": "8966ad69-a5f1-4cdf-b667-d633529ed9d2",
-          "type": "SingleChoice",
-          "content": "What is a perpetual swap?\n",
-          "hint": "NoHint",
-          "explanation": "There is no expiry date in perpetual swaps to your position (i.e., you can hold it as long as you want)",
-          "answerKeys": [
-            "178a52bd"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "A derivative that allows you to buy or sell an asset with a settlement date",
-              "key": "A"
-            },
-            {
-              "content": "A derivative that allows you to buy or sell an asset with no expiry date",
-              "key": "178a52bd"
-            },
-            {
-              "content": "A derivative that allows you to buy or sell an asset with no order date",
-              "key": "4298ff58"
-            },
-            {
-              "content": "A derivative that allows you to buy or sell an asset with an expiry date",
-              "key": "834d5716"
-            }
-          ]
-        },
-        {
           "uuid": "565c0e71-ef14-414c-8d43-0fff5ba9609d",
           "type": "SingleChoice",
           "content": "What are futures derivatives?\n",
@@ -194,6 +164,36 @@
             {
               "content": "Financial contracts that reduce the risk of default",
               "key": "06f31d3a"
+            }
+          ]
+        },
+        {
+          "uuid": "8966ad69-a5f1-4cdf-b667-d633529ed9d2",
+          "type": "SingleChoice",
+          "content": "What is a perpetual swap?\n",
+          "hint": "NoHint",
+          "explanation": "There is no expiry date in perpetual swaps to your position (i.e., you can hold it as long as you want)",
+          "answerKeys": [
+            "178a52bd"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "A derivative that allows you to buy or sell an asset with a settlement date",
+              "key": "A"
+            },
+            {
+              "content": "A derivative that allows you to buy or sell an asset with no expiry date",
+              "key": "178a52bd"
+            },
+            {
+              "content": "A derivative that allows you to buy or sell an asset with no order date",
+              "key": "4298ff58"
+            },
+            {
+              "content": "A derivative that allows you to buy or sell an asset with an expiry date",
+              "key": "834d5716"
             }
           ]
         },
