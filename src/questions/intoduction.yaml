@@ -106,3 +106,29 @@
       key: 0e8d7a21
     - content: To prevent too many trades
       key: 0fd0210a
+- uuid: 2fe257f6-0991-4252-b154-9bab78633421
+  type: SingleChoice
+  content: >-
+    In Perpetual Swaps/Futures, with funding rate, what happens when the market
+    rate is less than the index price?
+  hint: NoHint
+  explanation: >-
+    When the price gets too low, shorts pay long, which encourages more traders
+    to sell or go long, driving the price up.
+
+
+    This presents nice opportunity to arbitrators or people who want to take the
+    long side and they get the funding rate as the discount.
+  answerKeys:
+    - a9a963a0
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Longs pay shorts
+      key: A
+    - content: Shorts pay longs
+      key: fd32553d
+    - content: Arbitrators gets opportunity to make profit by creating a long position
+      key: a9a963a0
+    - content: Traders buy or go long
+      key: fbc98625
