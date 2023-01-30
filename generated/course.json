@@ -228,36 +228,6 @@
           ]
         },
         {
-          "uuid": "bb418cac-74d9-4c43-8239-a80ce85bbd14",
-          "type": "SingleChoice",
-          "content": "In Perpetual Swaps, what happens when the price of the perpetual swap gets too high i.e. more than the index price?",
-          "hint": "NoHint",
-          "explanation": "When the market is too bullish about an underlying asset, the price gets driven up. When this happens, longs pay shorts, which encourages more traders to sell or go short, and drives the price down.",
-          "answerKeys": [
-            "a7df312c"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Shorts pay longs",
-              "key": "A"
-            },
-            {
-              "content": "Arbitrators earn a 0.1% return every 8 hours",
-              "key": "cf3a3f9a"
-            },
-            {
-              "content": "Longs pay shorts",
-              "key": "a7df312c"
-            },
-            {
-              "content": "Traders buy or go long",
-              "key": "58c919c5"
-            }
-          ]
-        },
-        {
           "uuid": "565c0e71-ef14-414c-8d43-0fff5ba9609d",
           "type": "SingleChoice",
           "content": "What are futures derivatives?\n",
@@ -284,6 +254,36 @@
             {
               "content": "Financial contracts that reduce the risk of default",
               "key": "06f31d3a"
+            }
+          ]
+        },
+        {
+          "uuid": "bb418cac-74d9-4c43-8239-a80ce85bbd14",
+          "type": "SingleChoice",
+          "content": "In Perpetual Swaps, what happens when the price of the perpetual swap gets too high i.e. more than the index price?",
+          "hint": "NoHint",
+          "explanation": "When the market is too bullish about an underlying asset, the price gets driven up. When this happens, longs pay shorts, which encourages more traders to sell or go short, and drives the price down.",
+          "answerKeys": [
+            "a7df312c"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Shorts pay longs",
+              "key": "A"
+            },
+            {
+              "content": "Arbitrators earn a 0.1% return every 8 hours",
+              "key": "cf3a3f9a"
+            },
+            {
+              "content": "Longs pay shorts",
+              "key": "a7df312c"
+            },
+            {
+              "content": "Traders buy or go long",
+              "key": "58c919c5"
             }
           ]
         },
