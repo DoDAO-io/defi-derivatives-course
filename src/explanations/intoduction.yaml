@@ -40,15 +40,37 @@
     The most common derivative types are futures, forwards, swaps, and options.
     The most commonly traded derivates are futures and options.
 - key: futures
-  shortTitle: Futures
-  details: |-
-    Futures
-
-    Futures
-
-
-    Futures
   title: Futures
+  shortTitle: Futures
+  details: >-
+    Futures derivatives are financial contracts that obligate the buyer to
+    purchase an underlying asset (such as a commodity, currency, or security) at
+    a predetermined price on a specified date in the future. Futures contracts
+    are used for hedging against price fluctuations, speculation, and managing
+    risk in financial markets. Unlike options, which give the holder the right,
+    but not the obligation, to buy or sell an underlying asset, futures
+    contracts are binding and must be settled on the specified date, regardless
+    of the current market conditions.
+
+
+
+    ## Advantages
+
+    - Future derivatives include the ability to hedge against price
+    fluctuations, to manage risk, and to speculate on market movements
+
+    - They also provide liquidity and allow traders to take positions with a
+    relatively small amount of capital compared to the underlying assets.
+
+
+    ## Disadvantages of using future derivatives 
+
+    - The potential for unlimited losses and the fact that they are binding
+    contracts that must be settled on the specified date, regardless of market
+    conditions. 
+
+    - Margin account with high amount of funds might be needed to be able to
+    trade futures 
 - key: perpetual-futures
   title: Perpetual Futures
   shortTitle: Perpetual Futures
