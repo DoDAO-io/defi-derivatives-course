@@ -337,6 +337,12 @@
           "shortTitle": "Place Order",
           "details": "- https://help.dydx.exchange/en/articles/5108526-selecting-order-types\n- https://help.dydx.exchange/en/articles/5108531-choosing-the-appropriate-position-buy-or-sell\n- https://help.dydx.exchange/en/articles/5108536-understanding-trade-execution\n- https://help.dydx.exchange/en/articles/5108538-understanding-open-positions\n\n",
           "title": "Placing an Order"
+        },
+        {
+          "key": "leverage",
+          "shortTitle": "Leverage",
+          "details": "- https://help.dydx.exchange/en/articles/5108521-understanding-your-account-balance-leverage\n- https://help.dydx.exchange/en/articles/4797403-maximum-leverage-for-perpetuals",
+          "title": "Leverage"
         }
       ],
       "readings": [],
