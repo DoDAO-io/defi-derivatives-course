@@ -1,42 +1,44 @@
 - key: derivatives-and-importance
   title: Derivatives and Importance
   shortTitle: Derivatives
-  details: >
-    Derivative refers to a type of financial contract whose value is dependent
-    on an underlying asset, group of assets, or benchmark. 
+  details: >-
+    A derivative is a type of financial contract that gets its value from an
+    underlying asset, a group of assets, or benchmark.
 
 
-    Prices for derivatives derive from fluctuations in the underlying asset.
-    These financial securities are commonly used to access certain markets and
-    may be traded to hedge against risk. Derivatives can be used to either
-    mitigate risk (hedging) or assume risk with the expectation of commensurate
-    reward (speculation). Derivatives can move risk (and the accompanying
-    rewards) from the risk-averse to the risk seekers.
+    Derivative prices are based on changes in the value of the underlying asset.
+    By using these financial securities, investors can trade in different
+    markets and reduce their risk exposure. For example, if an investor is
+    worried about a stock price going down, they could buy a put option, which
+    would give them the right to sell the stock at a set price, no matter how
+    low the stock price goes. 
 
 
-    The most common underlying assets for derivatives are stocks, bonds,
-    commodities, currencies, interest rates, and market indexes. Contract values
-    depend on changes in the prices of the underlying asset.
+    Derivatives can be utilized to bet on future shifts in asset prices. As an
+    example, a call option could be purchased by an investor, giving them the
+    option to buy shares at a predetermined price, with the aim of profiting by
+    selling the shares if the stock price rises.
+
+
+    Commonly used assets as the basis for derivatives include stocks, bonds,
+    commodities, currencies, interest rates, and market indexes. The value of
+    the contracts is influenced by changes in the price of the underlying asset.
 
 
     Derivatives can be used to hedge a position, speculate on the directional
     movement of an underlying asset, or give leverage to holdings.
 
 
-    There are two classes of derivative products: "lock" and "option." Lock
-    products (e.g., futures, forwards, or swaps) bind the respective parties
-    from the outset to the agreed-upon terms over the life of the contract.
-    Option products (e.g., stock options), on the other hand, offer the holder
-    the right, but not the obligation, to buy or sell the underlying asset or
-    security at a specific price on or before the option's expiration date. The
-    most common derivative types are futures, forwards, swaps, and options.
+    Derivative products can be classified into two categories: "lock" and
+    "option." Lock products like futures, forwards, or swaps require both
+    parties to stick to the agreed terms throughout the contract. Option
+    products, such as stock options, give the holder the choice to buy or sell
+    the underlying asset at a set price before the option's expiration, but are
+    not mandatory
 
 
-
-
-    #### References
-
-    - https://www.investopedia.com/terms/d/derivative.asp
+    The most common derivative types are futures, forwards, swaps, and options.
+    The most commonly traded derivates are futures and options.
 - key: futures
   shortTitle: Futures
   details: |-
