@@ -343,6 +343,12 @@
           "shortTitle": "Leverage",
           "details": "- https://dydx.exchange/blog/leverage-intuition\n- https://help.dydx.exchange/en/articles/5108521-understanding-your-account-balance-leverage\n- https://dydx.exchange/blog/max-leverage-reduction\n- https://help.dydx.exchange/en/articles/4797403-maximum-leverage-for-perpetuals",
           "title": "Leverage"
+        },
+        {
+          "key": "references",
+          "shortTitle": "References",
+          "details": "- https://medium.com/dydxderivatives/getting-started-with-dydx-margin-trading-part-1-fe43789c2368",
+          "title": "References"
         }
       ],
       "readings": [],
