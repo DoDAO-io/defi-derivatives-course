@@ -1,5 +1,6 @@
 - key: derivatives-and-importance
-  shortTitle: Derivates
+  title: Derivatives and Importance
+  shortTitle: Derivatives
   details: |-
 
     Derivatives and Importance
@@ -7,7 +8,6 @@
     Derivatives and Importance
 
     Derivatives and Importance
-  title: Derivatives and Importance
 - key: perpetual-futures
   title: Perpetual Futures
   shortTitle: Perpetual Futures
