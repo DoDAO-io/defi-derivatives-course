@@ -9,10 +9,19 @@ highlights:
 publishStatus: Live
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/CourseIcons/derivatives_course.png
-details: |-
-  # Coming Soon
+details: >-
+  Derivatives are financial instruments whose value is derived from an
+  underlying asset, such as stocks, bonds, commodities, currencies, interest
+  rates, or market indexes. Examples of derivatives include options, futures,
+  and swaps. They are used to hedge against risk, speculate on price movements,
+  or earn additional income.
 
-  This course will be ready in next two weeks
+
+  In this course we will study
+
+  1.  Chapter 1 - What are derivatives and different types
+
+  2. Chapter 2 - Trading derivatives in dydx
 duration: 30 mins - 1 hour
 topics:
   - key: intoduction
