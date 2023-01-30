@@ -55,6 +55,7 @@ topics:
       - How leverage works in dYdX
 
       - The types of orders that can be executed using the protocol.
+    explanations: dydx.yaml
 courseAdmins: []
 coursePassContent: Pass content of Course !!!!!!!!!!
 topicConfig:

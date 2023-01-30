@@ -325,7 +325,14 @@
       "key": "dydx",
       "title": "dYdX",
       "details": "dYdX is a decentralized crypto derivatives exchange that enables users to trade perpetual contracts, margin trade, and leverage their position. Perpetual contracts are derivative instruments that do not have a fixed expiry date or time, meaning traders can hold a long or short position indefinitely - provided they have the margin to do so. Perpetuals trade closely to spot market prices because they rely on a funding rate system.\n\nBy trading perpetuals, crypto traders can take advantage of market movements, reduce risk, and make a profit by going long or short with leverage on a futures contract. \n\nIn this module of the course, we will cover \n- How to trade perpetual contracts in dYdX\n- How to take long or short positions\n- How leverage works in dYdX\n- The types of orders that can be executed using the protocol.",
-      "explanations": [],
+      "explanations": [
+        {
+          "key": "perpetual-contracts-in-dydx",
+          "shortTitle": "Perpetual Contracts",
+          "details": "Perpetual Contracts are synthetic trading markets that allow for exposure to arbitrary liquid assets using stablecoin (USDC) collateral. By trading Perpetuals, you can participate in market movements, reduce risk, and make a profit by going long or short with leverage on a futures contract. \n\nYou can start trading with as little as $10 at http://dydx.exchange/.\n\nLong\n\nBy going long, a trader buys a Perpetual contract with the expectation that the underlying asset will rise in value in the future. Rather than buying and holding the underlying asset, traders buy synthetic exposure to the asset.\n\nShort\n\nBy going short, a trader sells a Perpetual contract with the expectation that the underlying asset will decline in value in the future. Rather than selling the underlying asset, traders sell synthetic exposure to the asset.",
+          "title": "Perpetual Contracts in dYdX"
+        }
+      ],
       "readings": [],
       "summaries": [],
       "questions": []
