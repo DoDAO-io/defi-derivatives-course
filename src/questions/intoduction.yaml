@@ -1,0 +1,19 @@
+- uuid: a1917b43-5ecd-42ab-af37-1df1d8d17b4b
+  type: MultipleChoice
+  content: What is the purpose of using options in a portfolio?
+  hint: NoHint
+  explanation: Options can be used for risk management and speculation.
+  answerKeys:
+    - 533902c2
+    - A
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: To minimize risk
+      key: A
+    - content: To generate interest on savings
+      key: 50b95c58
+    - content: To speculate on market movements
+      key: 533902c2
+    - content: To diversify investments
+      key: 5e50ac45

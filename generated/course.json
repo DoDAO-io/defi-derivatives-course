@@ -39,7 +39,39 @@
           "title": "Perpetual Futures"
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "uuid": "57ceca97-e8f0-4ea7-8d7f-44b0d233ba38",
+          "type": "MultipleChoice",
+          "content": "What is the purpose of using options in a portfolio?",
+          "hint": "NoHint",
+          "explanation": "Options can be used for risk management and speculation.",
+          "answerKeys": [
+            "533902c2",
+            "A"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "To minimize risk",
+              "key": "A"
+            },
+            {
+              "content": "To generate interest on savings",
+              "key": "50b95c58"
+            },
+            {
+              "content": "To speculate on market movements",
+              "key": "533902c2"
+            },
+            {
+              "content": "To diversify investments",
+              "key": "5e50ac45"
+            }
+          ]
+        }
+      ],
       "readings": [],
       "summaries": []
     }

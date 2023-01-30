@@ -20,6 +20,7 @@ topics:
     details: |
       Derivatives in DeFi
     explanations: intoduction.yaml
+    questions: intoduction.yaml
 courseAdmins: []
 coursePassContent: Pass content of Course !!!!!!!!!!
 topicConfig:
