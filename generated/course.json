@@ -2,11 +2,11 @@
   "key": "derivatives-in-defi",
   "title": "Derivatives In DeFi",
   "summary": "This course talks about how derivatives work in DeFi\n",
-  "details": "Derivatives are financial instruments whose value is derived from an underlying asset, such as stocks, bonds, commodities, currencies, interest rates, or market indexes. Examples of derivatives include options, futures, and swaps. They are used to hedge against risk, speculate on price movements, or earn additional income.\n\nIn this course we will study\n1.  Chapter 1 - What are derivatives and different types\n2. Chapter 2 - Trading derivatives in dydx",
+  "details": "Derivatives are financial instruments whose value is derived from an underlying asset, such as stocks, bonds, commodities, currencies, interest rates, or market indexes. Examples of derivatives include options, futures, and swaps. They are used to hedge against risk, speculate on price movements, or earn additional income.\n\nIn this course we will study\n1.  Chapter 1 - What are derivatives and different types\n2. Chapter 2 - Using Perpetual Contracts in dYdX",
   "duration": "30 mins - 1 hour",
   "highlights": [
     "Introduction",
-    "dydx",
+    "dYdX",
     "GMX"
   ],
   "publishStatus": "Live",

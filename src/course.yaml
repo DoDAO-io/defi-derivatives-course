@@ -4,7 +4,7 @@ summary: |
   This course talks about how derivatives work in DeFi
 highlights:
   - Introduction
-  - dydx
+  - dYdX
   - GMX
 publishStatus: Live
 thumbnail: >-
@@ -21,7 +21,7 @@ details: >-
 
   1.  Chapter 1 - What are derivatives and different types
 
-  2. Chapter 2 - Trading derivatives in dydx
+  2. Chapter 2 - Using Perpetual Contracts in dYdX
 duration: 30 mins - 1 hour
 topics:
   - key: intoduction
