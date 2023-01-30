@@ -45,31 +45,40 @@
   details: >-
     ## Important Terms
 
-    1. **Option** - a contract that gives the holder the right to buy or sell an
+    **Option** - a contract that gives the holder the right to buy or sell an
     underlying asset at a set price.
 
-    2. **Strike price** - the set price at which the option can be exercised.
 
-    3. **Expiration date** - the date when the option contract expires.
+    **Strike price** - the set price at which the option can be exercised.
 
-    4. **Call option** - a type of option that gives the holder the right to buy
+
+    **Expiration date** - the date when the option contract expires.
+
+
+    **Call option** - a type of option that gives the holder the right to buy
     the underlying asset.
 
-    5. **Put option** - a type of option that gives the holder the right to sell
+
+    **Put option** - a type of option that gives the holder the right to sell
     the underlying asset.
 
-    6. **Underlying asset** - the security or commodity underlying the option
+
+    **Underlying asset** - the security or commodity underlying the option
     contract.
 
-    7. **Premium** - the price paid for an option.
 
-    8. **Delta** - the rate of change of an option's price relative to the price
+    **Premium** - the price paid for an option.
+
+
+    **Delta** - the rate of change of an option's price relative to the price
     change of the underlying asset.
 
-    9. **Long position** - owning an option or underlying asset.
 
-    10. **Short position** - the sale of an option or underlying asset not owned
-    by the seller.
+    **Long position** - owning an option or underlying asset.
+
+
+    **Short position** - the sale of an option or underlying asset not owned by
+    the seller.
 
 
     ## Options Types
