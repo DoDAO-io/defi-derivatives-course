@@ -365,6 +365,15 @@
       "questions": [],
       "readings": [],
       "summaries": []
+    },
+    {
+      "key": "gmx",
+      "title": "GMX",
+      "details": "GMX is a decentralized, non-restrictive, continuous trading platform for both spot and perpetual swap transactions. Simply connect a wallet to trade cryptocurrency on-chain effortlessly. The GMX protocol has its own token named GMX, which serves as a governance, utility and reward token. Stake GMX tokens to receive a share of GMX protocol fees and additional benefits. Currently, GMX operates on the Arbitrum and Avalanche networks.\n\n\n\n",
+      "explanations": [],
+      "readings": [],
+      "summaries": [],
+      "questions": []
     }
   ]
 }
