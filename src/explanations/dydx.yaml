@@ -79,7 +79,7 @@
     successful paths being liquidated before reaching their full potential. 
 
 
-    <image style="max-width:400px"
+    <image style="max-width:500px"
     src="https://raw.githubusercontent.com/DoDAO-io/defi-derivatives-course/main/images/dydx/liquidation_chances.png"
     />
 
@@ -87,6 +87,23 @@
     The article concludes by acknowledging that leverage can be beneficial in
     certain cases, such as for creating capital-efficient positions in hedged
     portfolios.
+
+
+    ## Leverage Limits
+
+    [Here](https://help.dydx.exchange/en/articles/4797403-maximum-leverage-for-perpetuals)
+    are the currently leverage limits added by dYdX
+
+
+    | Asset | Leverage Limit |
+
+    | - | - |
+
+    | BTC | 20x |
+
+    | ETH | 20x |
+
+    | All Other Markets | 10x |
 - key: references
   title: References
   shortTitle: References
