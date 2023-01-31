@@ -105,10 +105,35 @@
 
     | All Other Markets | 10x |
 - key: liquidation
+  title: Liquidation
   shortTitle: Liquidation
   details: >-
-    ## Example
+    ## What is Liquidation?
 
+    If the total value of an account falls below the maintenance margin
+    requirements, the positions in that account may be closed by the liquidation
+    engine. The positions are closed at the liquidation price, which is
+    described below. The insurance fund pays for any profits or losses from
+    liquidations.
+
+
+    When a liquidation occurs, the liquidator is allowed to take on the entire
+    account balance of the account being liquidated. This could potentially
+    leave the account with zero margin and zero position. Partial liquidation is
+    also an option, where the liquidator would take on a portion of the
+    account's margin and position.
+
+
+    ## Liquidation Penalty
+
+    If an account is liquidated, the entire value of the account may be taken as
+    a penalty and transferred to the Insurance Fund. The liquidation engine will
+    try to leave funds in accounts of positive value where possible after they
+    have paid the Maximum Liquidation Penalty of 1%.
+
+
+
+    ## Example
 
     Trader A starts with $1000 USDC, then opens a short 1 XYZ (fictional asset)
     position at $2000 USDC. Their account shows +$3000 USDC, -1 XYZ. The oracle
@@ -125,7 +150,10 @@
     liquidator's balance of +$2928 USDC, -1 XYZ. Finally, the liquidator closes
     the short position by selling at $2800 USDC, ending with a balance of +$128
     USDC, 0 XYZ.
-  title: Liquidation
+
+
+    More information on Liquidation can be found
+    [here](https://help.dydx.exchange/en/articles/4797401-perpetual-contract-liquidations)
 - key: references
   title: References
   shortTitle: References
