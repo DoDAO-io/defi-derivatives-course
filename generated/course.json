@@ -350,16 +350,16 @@
           "title": "Leverage"
         },
         {
-          "key": "references",
-          "title": "References",
-          "shortTitle": "References",
-          "details": "- https://dydx.exchange/blog/leverage-intuition\n- https://help.dydx.exchange/en/articles/5108521-understanding-your-account-balance-leverage\n- https://dydx.exchange/blog/max-leverage-reduction\n- https://help.dydx.exchange/en/articles/4797403-maximum-leverage-for-perpetuals\n- https://medium.com/dydxderivatives/getting-started-with-dydx-margin-trading-part-1-fe43789c2368\n- https://help.dydx.exchange/en/articles/5108526-selecting-order-types\n- https://help.dydx.exchange/en/articles/5108531-choosing-the-appropriate-position-buy-or-sell\n- https://help.dydx.exchange/en/articles/5108536-understanding-trade-execution\n- https://help.dydx.exchange/en/articles/5108538-understanding-open-positions"
-        },
-        {
           "key": "liquidation",
           "shortTitle": "Liquidation",
           "details": "## Example\n\nTrader A starts with $1000 USDC, then opens a short 1 XYZ (fictional asset) position at $2000 USDC. Their account shows +$3000 USDC, -1 XYZ. The oracle price is $2000 USDC/XYZ, meaning they have a 50% margin.\n\nLater, XYZ's price rises and the oracle reaches $2791 USDC. This drops Trader A's position below the maintenance margin, making it vulnerable to liquidation. The liquidator, with a balance of +$100 USDC, 0 XYZ, liquidates it at the best price of $2800, taking a 1% fee ($28).\n\nThis results in A's account balance of $3000-$2800-$28=$172 USDC, and liquidator's balance of +$2928 USDC, -1 XYZ. Finally, the liquidator closes the short position by selling at $2800 USDC, ending with a balance of +$128 USDC, 0 XYZ.",
           "title": "Liquidation"
+        },
+        {
+          "key": "references",
+          "title": "References",
+          "shortTitle": "References",
+          "details": "- https://dydx.exchange/blog/leverage-intuition\n- https://help.dydx.exchange/en/articles/5108521-understanding-your-account-balance-leverage\n- https://dydx.exchange/blog/max-leverage-reduction\n- https://help.dydx.exchange/en/articles/4797403-maximum-leverage-for-perpetuals\n- https://medium.com/dydxderivatives/getting-started-with-dydx-margin-trading-part-1-fe43789c2368\n- https://help.dydx.exchange/en/articles/5108526-selecting-order-types\n- https://help.dydx.exchange/en/articles/5108531-choosing-the-appropriate-position-buy-or-sell\n- https://help.dydx.exchange/en/articles/5108536-understanding-trade-execution\n- https://help.dydx.exchange/en/articles/5108538-understanding-open-positions"
         }
       ],
       "questions": [],
