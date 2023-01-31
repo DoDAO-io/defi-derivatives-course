@@ -32,8 +32,11 @@
     detail in the introductory chapter. For more information, please refer to
     that section.
 - key: placing-an-order
+  title: Placing an Order
   shortTitle: Place Order
   details: >+
+    ### TODO
+
     - https://help.dydx.exchange/en/articles/5108526-selecting-order-types
 
     -
@@ -45,7 +48,6 @@
     -
     https://help.dydx.exchange/en/articles/5108538-understanding-open-positions
 
-  title: Placing an Order
 - key: leverage
   title: Leverage
   shortTitle: Leverage
