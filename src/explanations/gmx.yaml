@@ -1,7 +1,12 @@
 - key: gmx-glp-tokens
   title: GMX & GLP Tokens
   shortTitle: GMX & GLP Tokens
-  details: |-
-    GMX & GLP Tokens
-
-    GMX & GLP Tokens
+  details: >-
+    GMX token is a utility & governance token for GMX protocol that gives token
+    holders a voice in critical decision-making and proposal voting. Staking GMX
+    tokens earns rewards like 30% of protocol fees, esGMX tokens, and Multiplier
+    Points. The total GMX token supply is capped at 13.25 million, with
+    7,042,003 tokens currently staked. GLP is the liquidity token for GMX,
+    providing traders with liquidity and eligible for staking rewards. GLP can
+    be minted using other liquidity pool assets and can be redeemed for locked
+    assets.
