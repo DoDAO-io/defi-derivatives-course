@@ -93,6 +93,7 @@ topics:
       traded independently, such as in Uniswap pools or as collateral for loans.
       This composability is a major advantage in Squeeth's design, making it
       easy to integrate into other projects.
+    explanations: opyn.yaml
 courseAdmins: []
 coursePassContent: Pass content of Course !!!!!!!!!!
 topicConfig:
