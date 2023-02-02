@@ -69,6 +69,30 @@ topics:
 
 
     explanations: gmx.yaml
+  - key: opyn
+    title: Opyn
+    details: >-
+      The Research Team at Opyn (Zubin Koticha, Andrew Leone, Alexis Gauba,
+      Aparna Krishnan), Dave White, and Dan Robinson have invented Squeeth, a
+      new financial derivative. Squeeth, also known as squared ETH, is the first
+      Power Perpetual that gives traders perpetual exposure to ETH².
+
+
+      The Squeeth contract allows users to trade a special index, ETH², by
+      either going long or short. The ETH² index is referred to as Squeeth
+      (squared-ETH) and the Squeeth contract is a collection of contracts that
+      enable trading of this index.
+
+
+      Squeeth operates similarly to a perpetual swap, tracking the ETH² index
+      instead of ETH. It offers options-like exposure without strikes or
+      expiries, consolidating much of the options market liquidity into a single
+      ERC20 token. Unlike other perpetual protocols, there is no leverage on
+      long positions in Squeeth, making it impossible to be liquidated. This
+      makes the long position a standard fungible ERC-20 token that can be
+      traded independently, such as in Uniswap pools or as collateral for loans.
+      This composability is a major advantage in Squeeth's design, making it
+      easy to integrate into other projects.
 courseAdmins: []
 coursePassContent: Pass content of Course !!!!!!!!!!
 topicConfig:
