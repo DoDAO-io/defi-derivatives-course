@@ -32,6 +32,12 @@
     independently, such as in Uniswap pools or as collateral for loans. This
     composability is a major advantage in Squeeth's design, making it easy to
     integrate into other projects.
+
+
+    ## References
+
+    -
+    https://medium.com/opyn/squeeth-insides-volume-1-funding-and-volatility-f16bed146b7d
 - key: references-76
   shortTitle: References
   details: '- https://www.youtube.com/watch?v=FhqFqdTXCSk'
