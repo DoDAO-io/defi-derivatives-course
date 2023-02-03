@@ -332,6 +332,12 @@
     the perpetual swap falls in line with the underlying asset.
 
 
+    Traders must also put down collateral, known as margin. When the mark price
+    moves against the trader, the resulting losses(funding rate) are deducted
+    from this margin. If the margin balance gets too low, the trader will be
+    liquidated, meaning their position is automatically closed out.
+
+
     ## What is Funding Rate?
 
     Funding is calculated based on the Index Price and sampled Mid-Market Prices
