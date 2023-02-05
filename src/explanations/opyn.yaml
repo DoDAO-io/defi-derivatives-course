@@ -26,18 +26,53 @@
     Squeeth operates similarly to a perpetual swap, tracking the ETH² index
     instead of ETH. It offers options-like exposure without strikes or expiries,
     consolidating much of the options market liquidity into a single ERC20
-    token. Unlike other perpetual protocols, there is no leverage on long
-    positions in Squeeth, making it impossible to be liquidated. This makes the
-    long position a standard fungible ERC-20 token that can be traded
-    independently, such as in Uniswap pools or as collateral for loans. This
-    composability is a major advantage in Squeeth's design, making it easy to
-    integrate into other projects.
+    token. 
+
+
+    Unlike other perpetual protocols, there is no leverage on long positions in
+    Squeeth, making it impossible to be liquidated. This makes the long position
+    a standard fungible ERC-20 token that can be traded independently, such as
+    in Uniswap pools or as collateral for loans. This composability is a major
+    advantage in Squeeth's design, making it easy to integrate into other
+    projects.
+
+
+    ## Advantages
+
+    #### Compared to options, Squeeth has several key advantages:
+
+    - No strikes, no expiries
+
+    - No liquidity fragmentation
+
+    - No need to “roll” positions, avoiding risks and costs such as gas and
+    spreads paid to market makers
+
+    - Constant gamma (curvature of payoff)
+
+
+    #### Compared to perpetual swaps, Squeeth has several key advantages:
+
+    - No liquidations on the long side
+
+    - Compared to a 2x leveraged position, Squeeth will make more when ETH goes
+    up and lose less when ETH goes down (funding rates for Squeeth are expected
+    to be higher due to exposure to pure convexity)
+
+    - The main difference between Squeeth and perpetual protocols is that
+    Squeeth is a leveraged position (ETH² payoff) that is a fungible ERC20
+    token, enabling it to be traded separately (in uniswap pools, for example,
+    or as collateral for loans). This composability is a major advantage to
+    Squeeth’s design
 
 
     ## References
 
     -
     https://medium.com/opyn/squeeth-insides-volume-1-funding-and-volatility-f16bed146b7d
+
+    -
+    https://medium.com/opyn/squeeth-primer-a-guide-to-understanding-opyns-implementation-of-squeeth-a0f5e8b95684
 - key: references-76
   shortTitle: References
   details: '- https://www.youtube.com/watch?v=FhqFqdTXCSk'
