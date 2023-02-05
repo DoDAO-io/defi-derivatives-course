@@ -37,6 +37,32 @@
     projects.
 
 
+    #### Long Squeeth
+
+    Long Squeeth is a leveraged position with unlimited ETH² upside, protected
+    downside, and no liquidations. Long Squeeth offers pure convexity (ETH²
+    payoff), giving it a more favorable payoff than 2x leverage. Compared to a
+    2x leveraged position, Squeeth will make more when ETH goes up and lose less
+    when ETH goes down, but funding rates are expected to be higher due to
+    exposure to pure convexity. Long Squeeth holders pay a funding rate for this
+    position.
+
+
+    #### Short Squeeth
+
+    Short Squeeth is a short ETH² position, collateralized with ETH. Traders
+    earn a funding rate for taking on this position, paid by long Squeeth
+    holders. Short Squeeth positions can be liquidated. A user’s exposure to the
+    price of ETH depends on the amount of collateral they have deposited, as
+    well as if they own the collateral or have borrowed it with stablecoins
+    elsewhere.
+
+
+    Note, the funding rate for Squeeth is almost always expected to be positive
+    due to long Squeeth’s convexity premium, however it is possible to be
+    negative (i.e. shorts pay longs if the rate is negative).
+
+
     ## Advantages
 
     #### Compared to options, Squeeth has several key advantages:
