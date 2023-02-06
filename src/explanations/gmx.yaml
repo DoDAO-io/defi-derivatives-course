@@ -2,7 +2,23 @@
   title: GMX & GLP Tokens
   shortTitle: GMX & GLP Tokens
   details: >-
-    ### Staking
+    ## GMX
+
+
+    ### Escrowed GMX
+
+    Escrowed GMX (esGMX) can be used in two ways:
+
+    1. Staked for rewards similar to regular GMX tokens
+
+    2. Vested to become actual GMX tokens over a period of one year
+
+
+    Each staked Escrowed GMX token will earn the same amount of Escrowed GMX and
+    ETH / AVAX rewards as a regular GMX token.
+
+
+    ### Staked GMX
 
     Staked GMX receives three types of rewards:
 
@@ -19,6 +35,9 @@
     receive AVAX. Note that the fees distributed are based on the number after
     deducting referral rewards and the network costs of keepers, keeper costs
     are usually around 1% of the total fees.
+
+    ## GLP
+
 
 
     ### Floor Price Fund
