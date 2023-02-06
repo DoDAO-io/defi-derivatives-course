@@ -197,9 +197,9 @@
 
 
     Important: If you deposit into the Crab Strategy when the current profit
-    threshold is low (~3%) & subsequently withdraw when the threshold is high
-    (~7%), you are effectively selling Squeeth when it's inexpensive, and buying
-    it back when it's expensive.
+    threshold is low `(~3%)` & subsequently withdraw when the threshold is high
+    `(~7%)`, you are effectively selling Squeeth when it's inexpensive, and
+    buying it back when it's expensive.
 
 
 
@@ -209,10 +209,10 @@
     • The current profit threshold is an important daily metric to watch
 
     • It's better to deposit in the Crab Strategy when the current profit
-    threshold is high (~7%)
+    threshold is high `(~7%)`
 
     • It's better to withdrawal from the Crab Strategy when the current profit
-    threshold is low (~3%)
+    threshold is low `(~3%)`
 
 
 
