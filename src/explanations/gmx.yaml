@@ -103,34 +103,45 @@
     - https://app.gmx.io/#/dashboard
     - https://stats.gmx.io
 - key: glp-token
-  shortTitle: GLP Token
-  details: >-
-    GLP is the platform's liquidity provider token.
-
-
-    GLP consists of an index of assets used for swaps and leverage trading. 
-
-
-    It can be minted using any index asset and burnt to redeem any index asset.
-    The price for minting and redemption is calculated based on (total worth of
-    assets in index including profits and losses of open positions) / (GLP
-    supply).
-
-
-
-    For Arbitrum, holders of the GLP token earn Escrowed GMX rewards and 70% of
-    platform fees distributed in ETH. For Avalanche, holders of the GLP token
-    earn Escrowed GMX rewards and 70% of platform fees distributed in AVAX. Note
-    that the fees distributed are based on the number after deducting referral
-    rewards and the network costs of keepers, keeper costs are usually around 1%
-    of the total fees.
-
-
-    Note that GLP is specific to the network you mint it on, it is not directly
-    transferrable between networks and the price / rewards to the tokens will
-    differ between networks.
-
-    As GLP holders provide liquidity for leverage trading, they will make a
-    profit when leverage traders make a loss and vice versa. Past PnL data, GLP
-    price chart and other stats can be viewed on https://stats.gmx.io.
   title: GLP Token
+  shortTitle: GLP Token
+  details: >+
+    GLP is the token that provides liquidity to the platform. It is made up of a
+    collection of assets used for swapping and leverage trading. You can create
+    GLP tokens using any of the index assets and convert them back into index
+    assets at a price that's calculated based on the total value of assets in
+    the index (including profits and losses from open positions) divided by the
+    GLP supply.
+
+
+    Holders of GLP tokens earn Escrowed GMX rewards and receive 70% of platform
+    fees, which are distributed in ETH on Arbitrum and AVAX on Avalanche. Keep
+    in mind that these fees take into account referral rewards and network costs
+    for keepers (usually around 1% of total fees).
+
+
+    It's important to note that GLP is specific to the network where it's minted
+    and is not directly transferable between networks. The price and rewards for
+    GLP tokens will vary between networks. The performance of GLP, including
+    past PnL data and price chart, can be viewed at https://stats.gmx.io. Keep
+    in mind that as a liquidity provider, the profit or loss of GLP holders is
+    tied to the success or failure of leverage traders.
+
+
+    ## Minting and Rebalancing
+
+    The fees to mint GLP, burn GLP or to perform swaps will vary based on
+    whether the action improves the balance of assets or reduces it. For
+    example, if the index has a large percentage of ETH and a small percentage
+    of USDC, actions which further increase the amount of ETH the index has will
+    have a high fee while actions which reduces the amount of ETH the index has
+    will have a low fee.
+
+
+    Token weights are adjusted to help hedge GLP holders based on the open
+    positions of traders. For example, if a lot of traders are long ETH, then
+    ETH would have a higher token weight, if a lot of traders are short, then a
+    higher token weight will be given to stablecoins.
+
+
+
