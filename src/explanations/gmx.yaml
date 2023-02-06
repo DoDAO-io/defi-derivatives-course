@@ -136,17 +136,6 @@
     if the (Floor Price Fund) / (Total Supply of GMX) is less than the market
     price, this would lead to a minimum price for GMX in terms of ETH and GLP.
 
-- key: references-42
-  title: References
-  shortTitle: References
-  details: |-
-    - https://blockgeeks.com/guides/what-is-gmx-protocol/
-    - https://academy.binance.com/en/articles/what-is-gmx
-    - https://www.youtube.com/watch?v=LJwxOF_L65s
-
-    Stats
-    - https://app.gmx.io/#/dashboard
-    - https://stats.gmx.io
 - key: trading
   shortTitle: Trading
   details: >-
@@ -183,3 +172,14 @@
 
     - Can occur due to price movements during trade confirmation on blockchain
   title: Trading
+- key: references-42
+  title: References
+  shortTitle: References
+  details: |-
+    - https://blockgeeks.com/guides/what-is-gmx-protocol/
+    - https://academy.binance.com/en/articles/what-is-gmx
+    - https://www.youtube.com/watch?v=LJwxOF_L65s
+
+    Stats
+    - https://app.gmx.io/#/dashboard
+    - https://stats.gmx.io
