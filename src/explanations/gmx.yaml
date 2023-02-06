@@ -102,3 +102,35 @@
     Stats
     - https://app.gmx.io/#/dashboard
     - https://stats.gmx.io
+- key: glp-token
+  shortTitle: GLP Token
+  details: >-
+    GLP is the platform's liquidity provider token.
+
+
+    GLP consists of an index of assets used for swaps and leverage trading. 
+
+
+    It can be minted using any index asset and burnt to redeem any index asset.
+    The price for minting and redemption is calculated based on (total worth of
+    assets in index including profits and losses of open positions) / (GLP
+    supply).
+
+
+
+    For Arbitrum, holders of the GLP token earn Escrowed GMX rewards and 70% of
+    platform fees distributed in ETH. For Avalanche, holders of the GLP token
+    earn Escrowed GMX rewards and 70% of platform fees distributed in AVAX. Note
+    that the fees distributed are based on the number after deducting referral
+    rewards and the network costs of keepers, keeper costs are usually around 1%
+    of the total fees.
+
+
+    Note that GLP is specific to the network you mint it on, it is not directly
+    transferrable between networks and the price / rewards to the tokens will
+    differ between networks.
+
+    As GLP holders provide liquidity for leverage trading, they will make a
+    profit when leverage traders make a loss and vice versa. Past PnL data, GLP
+    price chart and other stats can be viewed on https://stats.gmx.io.
+  title: GLP Token
