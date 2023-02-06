@@ -1,0 +1,97 @@
+## Header
+This is the course header. This will be added on top of every page. Go to [DoDAO.io](https://www.dodao.io) to know more.
+
+ ---
+ 
+ ## Opyn
+ 
+ **Squeeth**        
+## About Squeeth
+The Squeeth contract allows users to trade a special index, ETH², by either going long or short. The ETH² index is referred to as Squeeth (squared-ETH). The Squeeth contract is a collection of contracts that enable trading of this index.
+
+Squeeth traders can use the contract to take a position on the future value of ETH. If they believe ETH will increase in value, they can go long on the Squeeth contract. If they believe ETH will decrease in value, they can go short.
+
+The Squeeth contract is a way to trade ETH without having to actually own any ETH. This makes it accessible to traders who may not have the capital to buy ETH outright.
+
+## Working
+Squeeth operates similarly to a perpetual swap, tracking the ETH² index instead of ETH. It offers options-like exposure without strikes or expiries, consolidating much of the options market liquidity into a single ERC20 token. 
+
+Unlike other perpetual protocols, there is no leverage on long positions in Squeeth, making it impossible to be liquidated. This makes the long position a standard fungible ERC-20 token that can be traded independently, such as in Uniswap pools or as collateral for loans. This composability is a major advantage in Squeeth's design, making it easy to integrate into other projects.
+
+#### Long Squeeth
+Long Squeeth is a leveraged position with unlimited ETH² upside, protected downside, and no liquidations. Long Squeeth offers pure convexity (ETH² payoff), giving it a more favorable payoff than 2x leverage. Compared to a 2x leveraged position, Squeeth will make more when ETH goes up and lose less when ETH goes down, but funding rates are expected to be higher due to exposure to pure convexity. Long Squeeth holders pay a funding rate for this position.
+
+#### Short Squeeth
+Short Squeeth is a short ETH² position, collateralized with ETH. Traders earn a funding rate for taking on this position, paid by long Squeeth holders. Short Squeeth positions can be liquidated. A user’s exposure to the price of ETH depends on the amount of collateral they have deposited, as well as if they own the collateral or have borrowed it with stablecoins elsewhere.
+
+Note, the funding rate for Squeeth is almost always expected to be positive due to long Squeeth’s convexity premium, however it is possible to be negative (i.e. shorts pay longs if the rate is negative).
+
+## Advantages
+#### Compared to options, Squeeth has several key advantages:
+- No strikes, no expiries
+- No liquidity fragmentation
+- No need to “roll” positions, avoiding risks and costs such as gas and spreads paid to market makers
+- Constant gamma (curvature of payoff)
+
+#### Compared to perpetual swaps, Squeeth has several key advantages:
+- No liquidations on the long side
+- Compared to a 2x leveraged position, Squeeth will make more when ETH goes up and lose less when ETH goes down (funding rates for Squeeth are expected to be higher due to exposure to pure convexity)
+- The main difference between Squeeth and perpetual protocols is that Squeeth is a leveraged position (ETH² payoff) that is a fungible ERC20 token, enabling it to be traded separately (in uniswap pools, for example, or as collateral for loans). This composability is a major advantage to Squeeth’s design
+
+## References
+- https://medium.com/opyn/squeeth-insides-volume-1-funding-and-volatility-f16bed146b7d
+- https://medium.com/opyn/squeeth-primer-a-guide-to-understanding-opyns-implementation-of-squeeth-a0f5e8b95684
+- https://www.paradigm.xyz/2021/08/power-perpetuals 
+ **Squeeth Strategies**        
+By pairing long ETH with short Squeeth, we get REALLY cool automated strategies to generate yield from Squeeth buyers.
+
+Squeeth strategies are a collection of automated yield strategies for different market conditions (🐂 🦀 🐻) that allow users to earn funding, paid by the daily funding rate of Squeeth buyers. Users simply deposit ETH and the contract automatically manages the strategy.
+
+The first Automated Squeeth Strategy Opyn launched is the Crab Strategy 🦀
+
+Opyn’s goal is to enable any team to utilize squeeth’s infrastructure. There will be a few Opyn foundational strategies (Crab: neutral exposure to eth, Bull: positive exposure to eth , Bear: negative exposure to eth), but integration teams can adjust any parameter of the trading strategy to create their own strategies or build their own novel strategy with different mechanism, triggers, etc.
+
+### References
+- https://medium.com/opyn/the-best-market-conditions-to-squeeth-zen-bull-crab-and-long-squeeth-2e4fa7d854dc
+- https://medium.com/opyn/stack-eth-opyns-zen-bull-strategy-is-now-live-%EF%B8%8F-f15936f7ecce
+- https://medium.com/opyn/the-best-market-conditions-to-squeeth-zen-bull-crab-and-long-squeeth-2e4fa7d854dc
+- https://medium.com/opyn/automated-squeeth-strategies-crab-v2-is-now-live-8444246610c8 
+ **Crab Strategy**        
+Crab v2 is an automated vault strategy that allows users to earn funding (i.e. yield) from being short oSQTH without taking a view on if ETH will move up or down.
+
+The vault does this by creating a mix of oSQTH debt and ETH collateral. The strategy contract periodically adjusts its holdings of oSQTH debt and ETH collateral to become delta neutral. This means that the positive exposure to ETH from the collateral exactly offsets the negative exposure from oSQTH, giving the position a neutral exposure to the price of ETH. The maximum payoff is if the ETH price remains constant.
+
+The vault rebalances Monday, Wednesday, Friday around 9:30am PST (or upon large price movements in ETH).
+
+The Crab Strategy is profitable between rebalances as long as ETH moves less than an amount based on the funding received from the short Squeeth position, subject to transaction fees, slippage, and other costs. In other words, the Crab Strategy takes the view that ETH volatility will be low (i.e. the price of ETH will be calm, not moving a lot in either direction).
+
+At the highest level, the Crab Strategy makes money if ETH moves LESS than x% up or down each day. The % threshold is variable, meaning it's not fixed. One day it could be 6.27%, another day it could be 4.5%. So, the ideal market condition to be deposited into the Crab Strategy is when the price of ETH does not move too much up or down in a given day, or over a period of time. 
+
+ETH can move up or down, but it needs to be within a relatively stable daily range (vs being volatile).
+The current profit threshold is based on supply/demand of oSQTH (the Squeeth ERC20)
+
+If relatively more people are buying Squeeth, then the crab profit threshold will be higher. If relatively more people are selling Squeeth, then the crab profit threshold will be lower. The current profit threshold isn't necessarily related to the absolute price of oSQTH. It's more of a function of the amount of current buyers vs sellers.
+
+The oSQTH price reflects what the price of ETH is and what the threshold should be
+
+Important: If you deposit into the Crab Strategy when the current profit threshold is low `(~3%)` & subsequently withdraw when the threshold is high `(~7%)`, you are effectively selling Squeeth when it's inexpensive, and buying it back when it's expensive.
+
+
+### Key takeaways:
+- The current profit threshold is an important daily metric to watch
+- It's better to deposit in the Crab Strategy when the current profit threshold is high `(~7%)`
+- It's better to withdrawal from the Crab Strategy when the current profit threshold is low `(~3%)`
+
+
+### References
+- https://medium.com/opyn/automated-squeeth-strategies-crab-v2-is-now-live-8444246610c8 
+ **References**        
+- https://medium.com/opyn/squeeth-insides-volume-1-funding-and-volatility-f16bed146b7d
+- https://medium.com/opyn/squeeth-primer-a-guide-to-understanding-opyns-implementation-of-squeeth-a0f5e8b95684
+- https://www.paradigm.xyz/2021/08/power-perpetuals
+- https://www.youtube.com/watch?v=FhqFqdTXCSk
+- https://medium.com/opyn/the-best-market-conditions-to-squeeth-zen-bull-crab-and-long-squeeth-2e4fa7d854dc
+- https://medium.com/opyn/stack-eth-opyns-zen-bull-strategy-is-now-live-%EF%B8%8F-f15936f7ecce
+- https://medium.com/opyn/the-best-market-conditions-to-squeeth-zen-bull-crab-and-long-squeeth-2e4fa7d854dc
+- https://medium.com/opyn/automated-squeeth-strategies-crab-v2-is-now-live-8444246610c8 
+ 

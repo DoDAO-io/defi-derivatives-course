@@ -133,6 +133,8 @@ If you want to bet on the price of Ethereum going up, you have several options. 
 
 Perpetual swap is a new derivative as of recent years. It does not have an expiry date and also does not have a settlement date, meaning the position can be held forever. The underlying asset is never involved directly, so one can be exposed to an asset’s price movements without having to actually hold or borrow the asset. Unlike futures contracts where the price could differ from the spot underlying price (which is commonly referred to as basis), perpetual swaps are always closely pegged to the underlying they track. This is accomplished by using a funding rate mechanism, which can be thought of as either a fee or a rebate that traders receive for holding positions. This mechanism balances the demand from buyers and sellers so that the price of the perpetual swap falls in line with the underlying asset.
 
+Traders must also put down collateral, known as margin. When the mark price moves against the trader, the resulting losses(funding rate) are deducted from this margin. If the margin balance gets too low, the trader will be liquidated, meaning their position is automatically closed out.
+
 ## What is Funding Rate?
 Funding is calculated based on the Index Price and sampled Mid-Market Prices for the perpetual. When the rate is positive (perpetual trades at a premium relative to index), traders who are long will make payments to traders who are short. When the rate is negative (perpetual trades at a discount relative to index), this is reversed and shorts will pay longs. Traders make or receive payments in proportion to the size of their market position. **These payments are exchanged solely between traders, and are neither paid nor received by the exchange.**
 
@@ -176,5 +178,24 @@ This presents nice opportunity to arbitrators or people who want to take the lon
 - https://academy.binance.com/en/articles/what-are-perpetual-futures-contracts
 - https://www.youtube.com/watch?v=01BPptRKc9o
 - https://www.youtube.com/watch?v=mUvsWekvkV8
-- https://www.coinglass.com/FundingRate 
+- https://www.coinglass.com/FundingRate
+- https://research.paradigm.xyz/cartoon-guide-to-perps
+- https://www.paradigm.xyz/2021/05/everlasting-options 
+ **Power Perpetuals**        
+
+Power perpetuals are a sub-class of perpetual derivatives. As the name suggests, a power perpetual is a derivative that is linked to a power of the price of an underlying asset. For example, ETH.
+
+## Working
+Power perpetuals are kept in check by means of a regular funding fee, which is paid internally (say, on a daily basis). If the current price of the power perpetual is $MARK at the time of funding, those who are holding long positions may pay those who are holding short positions $(MARK-INDEX) = $(MARK-ETHp).
+
+This funding fee is sometimes referred to as a premium yield, because it generally represents premium being paid from longs to shorts in return for options-like exposure.
+
+## Example
+The ETH^2 power perpetual is a contract that allows traders to bet on the future price of ETH. 
+
+Assume that ETH is trading at $3, and that the ETH^2 power perpetual is trading at $9.09 at the time funding is paid. Then the longs would have to pay the shorts $(MARK-INDEX) = $(MARK-ETH^2) = $(9.09 - 3^2) = $9.09 - $9.00 = $0.09 per contract.
+
+
+## References
+https://www.paradigm.xyz/2021/08/power-perpetuals 
  
