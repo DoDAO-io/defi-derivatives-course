@@ -102,15 +102,22 @@
 
     - https://www.paradigm.xyz/2021/08/power-perpetuals
 - key: squeeth-strategies
-  shortTitle: Squeeth Strategies
-  details: |-
-    Squeeth Strategies 
-
-    Squeeth Strategies 
-
-
-    Squeeth Strategies 
   title: Squeeth Strategies
+  shortTitle: Squeeth Strategies
+  details: >+
+    By pairing long ETH with short Squeeth, we get REALLY cool automated
+    strategies to generate yield from Squeeth buyers.
+
+
+    Squeeth strategies are a collection of automated yield strategies for
+    different market conditions (🐂 🦀 🐻) that allow users to earn funding,
+    paid by the daily funding rate of Squeeth buyers. Users simply deposit ETH
+    and the contract automatically manages the strategy.
+
+
+    The first Automated Squeeth Strategy Opyn launched is the Crab Strategy 🦀
+
+
 - key: references-76
   shortTitle: References
   details: '- https://www.youtube.com/watch?v=FhqFqdTXCSk'
