@@ -45,36 +45,27 @@
     ### Vesting
 
 
-    Escrowed GMX (esGMX) tokens can be converted into GMX tokens through
-    vesting. When vesting is initiated, the average amount of GMX or GLP tokens
-    that was used to earn the esGMX rewards will be reserved.
+    The esGMX tokens can be transformed into GMX tokens through a process called
+    vesting. During vesting, the average amount of GMX or GLP tokens used to
+    earn the esGMX rewards will be reserved. For instance, if you staked 1000
+    GMX and received 100 esGMX tokens, then to vest 100 esGMX tokens, 1000 GMX
+    tokens will be set aside. The actual ratio may vary based on your staked
+    amount and rewards earned.
 
 
-    For example, if you staked 1000 GMX and earned 100 esGMX tokens, then to
-    vest 100 esGMX tokens, 1000 GMX tokens will be reserved. To vest 50 esGMX,
-    500 GMX tokens will be reserved. Note that this is an example and the actual
-    ratio depends on the average staked amount and rewards earned for your
-    account.
+    Once vesting has been initiated, esGMX tokens will no longer earn rewards.
+    However, the GMX tokens reserved for vesting will still earn rewards. The
+    esGMX tokens will be converted into GMX tokens over a period of 365 days.
+    Once they are fully converted, they can be claimed at any time.
 
 
-    esGMX tokens that have been unstaked and deposited for vesting will not earn
-    rewards. Staked tokens that are reserved for vesting will continue to earn
-    rewards.
+    If you sell GMX or GLP tokens and later wish to vest your esGMX rewards,
+    you'll need to purchase those tokens again. You can use GMX, esGMX or
+    Multiplier Points to fulfill the required reserve amount.
 
 
-    After initiating vesting, the esGMX tokens will be converted into GMX every
-    second and will fully vest over 365 days. esGMX tokens that have been
-    converted into GMX are claimable at anytime.
-
-
-    If a user sells GMX or GLP tokens and would like to vest their esGMX rewards
-    later on, they would need to re-buy the GMX or GLP tokens. GMX, esGMX and
-    Multiplier Points can be used interchangeably for the required reserve
-    amount.
-
-
-    Depositing into the vesting vault while existing vesting is ongoing is
-    supported.
+    It's possible to deposit into the vesting vault while ongoing vesting is in
+    progress.
 
 
     ## GLP
