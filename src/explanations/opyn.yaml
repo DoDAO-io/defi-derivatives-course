@@ -152,44 +152,26 @@
     (i.e. the price of ETH will be calm, not moving a lot in either direction).
 
 
-    It aims to make money in USD
-
-    In a bear market it can stack ETH
-
-
     At the highest level, the Crab Strategy makes money if ETH moves LESS than
-    x% up or down each day.
-
-
-    The % threshold is variable, meaning it's not fixed. One day it could be
-    6.27%, another day it could be 4.5%.
-
-
-    So, the ideal market condition to be deposited into the Crab Strategy is
-    when the price of ETH does not move too much up or down in a given day, or
-    over a period of time. 
+    x% up or down each day. The % threshold is variable, meaning it's not fixed.
+    One day it could be 6.27%, another day it could be 4.5%. So, the ideal
+    market condition to be deposited into the Crab Strategy is when the price of
+    ETH does not move too much up or down in a given day, or over a period of
+    time. 
 
 
     ETH can move up or down, but it needs to be within a relatively stable daily
     range (vs being volatile).
-
-
 
     The current profit threshold is based on supply/demand of oSQTH (the Squeeth
     ERC20)
 
 
     If relatively more people are buying Squeeth, then the crab profit threshold
-    will be higher
-
-
-    If relatively more people are selling Squeeth, then the crab profit
-    threshold will be lower
-
-
-    *note, the current profit threshold isn't necessarily related to the
-    absolute price of oSQTH. It's more of a function of the amount of current
-    buyers vs sellers.
+    will be higher. If relatively more people are selling Squeeth, then the crab
+    profit threshold will be lower. The current profit threshold isn't
+    necessarily related to the absolute price of oSQTH. It's more of a function
+    of the amount of current buyers vs sellers.
 
 
     The oSQTH price reflects what the price of ETH is and what the threshold
@@ -203,20 +185,19 @@
 
 
 
-    Key takeaways:
+    ### Key takeaways:
 
+    - The current profit threshold is an important daily metric to watch
 
-    • The current profit threshold is an important daily metric to watch
-
-    • It's better to deposit in the Crab Strategy when the current profit
+    - It's better to deposit in the Crab Strategy when the current profit
     threshold is high `(~7%)`
 
-    • It's better to withdrawal from the Crab Strategy when the current profit
+    - It's better to withdrawal from the Crab Strategy when the current profit
     threshold is low `(~3%)`
 
 
 
-    ## References
+    ### References
 
     -
     https://medium.com/opyn/automated-squeeth-strategies-crab-v2-is-now-live-8444246610c8
