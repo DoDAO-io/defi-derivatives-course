@@ -23,7 +23,7 @@
 
     #### Borrow Fee:
 
-    - Deducted hourly and paid to the counter-party of your trade
+    - Deducted hourly and paid to the counter-party(GLP Holders) of your trade
 
     - Varies based on utilization, calculated as (assets borrowed) / (total
     assets in pool) * 0.01%
