@@ -4,6 +4,12 @@
   details: >-
     ## Opening a position
 
+
+    <img style="max-height:400px"
+    src="https://raw.githubusercontent.com/DoDAO-io/defi-derivatives-course/main/images/gmx/trading.png"
+    />
+
+
     ### Definition of "Entry Price" and "Liquidation Price":
 
     - The "Entry Price" is set at $3541.17
