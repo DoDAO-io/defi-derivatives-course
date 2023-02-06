@@ -122,3 +122,11 @@
   shortTitle: References
   details: '- https://www.youtube.com/watch?v=FhqFqdTXCSk'
   title: References
+- key: crab-strategy
+  shortTitle: Crab Strategy
+  details: >-
+    The Crab Strategy allows depositors to collect funding without being short
+    ETH. The vault pairs short Squeeth with long ETH to create a position with
+    an approximate delta of 0 to the price of ETH. This is a classic ‘short
+    volatility’ strategy.
+  title: Crab Strategy
