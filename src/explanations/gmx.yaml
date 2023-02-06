@@ -1,7 +1,7 @@
 - key: gmx-glp-tokens
   title: GMX & GLP Tokens
-  shortTitle: GMX & GLP Tokens
-  details: >-
+  shortTitle: GMX Token
+  details: >+
     ## GMX
 
     GMX is the platform's utility and governance token, holding the token
@@ -68,10 +68,6 @@
     progress.
 
 
-    ## GLP
-
-
-
     ### Floor Price Fund
 
     The GMX token has a floor price fund in ETH and GLP. It grows in two ways:
@@ -94,6 +90,7 @@
     As the floor price fund grows, it can also be used to buyback and burn GMX
     if the (Floor Price Fund) / (Total Supply of GMX) is less than the market
     price, this would lead to a minimum price for GMX in terms of ETH and GLP.
+
 - key: references-42
   title: References
   shortTitle: References
