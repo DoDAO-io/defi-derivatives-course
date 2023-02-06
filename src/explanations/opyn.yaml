@@ -118,10 +118,6 @@
     The first Automated Squeeth Strategy Opyn launched is the Crab Strategy 🦀
 
 
-- key: references-76
-  shortTitle: References
-  details: '- https://www.youtube.com/watch?v=FhqFqdTXCSk'
-  title: References
 - key: crab-strategy
   shortTitle: Crab Strategy
   details: >-
@@ -130,3 +126,7 @@
     an approximate delta of 0 to the price of ETH. This is a classic ‘short
     volatility’ strategy.
   title: Crab Strategy
+- key: references-76
+  shortTitle: References
+  details: '- https://www.youtube.com/watch?v=FhqFqdTXCSk'
+  title: References
