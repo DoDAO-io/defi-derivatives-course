@@ -4,10 +4,13 @@
   details: >-
     ## Opening a position
 
+    <div align="center">
 
     <img style="max-height:400px"
     src="https://raw.githubusercontent.com/DoDAO-io/defi-derivatives-course/main/images/gmx/trading.png"
     />
+
+    </div>
 
 
     ### Definition of "Entry Price" and "Liquidation Price":
@@ -40,6 +43,17 @@
     - The difference between expected trade price and execution price
 
     - Can occur due to price movements during trade confirmation on blockchain
+
+
+    ## Managing Positions
+
+    <div align="center">
+
+    <img style="max-height:400px"
+    src="https://github.com/DoDAO-io/defi-derivatives-course/blob/main/images/gmx/managing_positions.png"
+    />
+
+    </div>
 
 
     ## Fees
