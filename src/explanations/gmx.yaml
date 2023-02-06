@@ -119,18 +119,20 @@
 
     ## Minting and Rebalancing
 
-    The fees to mint GLP, burn GLP or to perform swaps will vary based on
-    whether the action improves the balance of assets or reduces it. For
-    example, if the index has a large percentage of ETH and a small percentage
-    of USDC, actions which further increase the amount of ETH the index has will
-    have a high fee while actions which reduces the amount of ETH the index has
-    will have a low fee.
+    The fees for minting GLP, burning GLP, or executing swaps will vary based on
+    whether the action increases or decreases the balance of assets in the
+    index. For example, if the index has a large proportion of ETH and a small
+    proportion of USDC, actions that add to the ETH in the index will incur a
+    high fee, while actions that decrease the ETH will have a low fee.
 
 
-    Token weights are adjusted to help hedge GLP holders based on the open
-    positions of traders. For example, if a lot of traders are long ETH, then
-    ETH would have a higher token weight, if a lot of traders are short, then a
-    higher token weight will be given to stablecoins.
+    The token weights are adjusted to hedge GLP holders based on the trading
+    positions of traders. For instance, if many traders have long positions on
+    ETH, ETH will have a higher token weight, and if many traders have short
+    positions, stablecoins will have a higher token weight.
+
+
+
 
 
 
