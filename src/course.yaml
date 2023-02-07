@@ -6,6 +6,7 @@ highlights:
   - Introduction
   - dYdX
   - GMX
+  - Opyn
 publishStatus: Live
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/CourseIcons/derivatives_course.png
@@ -22,6 +23,10 @@ details: >-
   1.  Chapter 1 - What are derivatives and different types
 
   2. Chapter 2 - Using Perpetual Contracts in dYdX
+
+  3. Chapter 3 - Using Perpetual Contracts in GMX
+
+  4. Chapter 4 - Using Powered Perpetuals $$(ETH)^2$$ in Opyn 
 duration: 30 mins - 1 hour
 topics:
   - key: intoduction
@@ -80,5 +85,5 @@ topics:
 courseAdmins: []
 coursePassContent: Pass content of Course !!!!!!!!!!
 topicConfig:
-  showExplanations: false
-  showHints: false
+  showExplanations: true
+  showHints: true
