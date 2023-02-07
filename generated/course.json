@@ -2,7 +2,7 @@
   "key": "derivatives-in-defi",
   "title": "Derivatives In DeFi",
   "summary": "This course talks about how derivatives work in DeFi\n",
-  "details": "Derivatives are financial instruments whose value is derived from an underlying asset, such as stocks, bonds, commodities, currencies, interest rates, or market indexes. Examples of derivatives include options, futures, and swaps. They are used to hedge against risk, speculate on price movements, or earn additional income.\n\nIn this course we will study\n1.  Chapter 1 - What are derivatives and different types\n2. Chapter 2 - Using Perpetual Contracts in dYdX\n3. Chapter 3 - Using Perpetual Contracts in GMX\n4. Chapter 4 - Using Powered Perpetuals $$ETH^2$$(Squeeth) in Opyn ",
+  "details": "Derivatives are financial instruments whose value is derived from an underlying asset, such as stocks, bonds, commodities, currencies, interest rates, or market indexes. Examples of derivatives include options, futures, and swaps. They are used to hedge against risk, speculate on price movements, or earn additional income.\n\nIn this course we will study\n1.  Chapter 1 - What are derivatives and different types\n2. Chapter 2 - Using Perpetual Contracts in dYdX\n3. Chapter 3 - Using Perpetual Contracts in GMX\n4. Chapter 4 - Using Powered Perpetuals ETH²(Squeeth) in Opyn ",
   "duration": "30 mins - 1 hour",
   "highlights": [
     "Introduction",
