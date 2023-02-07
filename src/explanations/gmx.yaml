@@ -55,6 +55,26 @@
 
     </div>
 
+    - After opening a trade, it can be viewed under "Positions" list and "Edit"
+    option allows for deposit/withdrawal of collateral to manage leverage and
+    liquidation price.
+
+    - A snapshot of USD price of collateral is taken when opening a position or
+    depositing collateral.
+
+
+    - Profit/loss is proportional to position size. For example, a 10% increase
+    in ETH price results in a profit of 175.29 USD for a long position and a
+    loss of 175.29 USD for a short position.
+
+
+    - Leverage can be displayed as (position size) / (position collateral) or
+    customised to (position size + PnL) / (position collateral).
+
+
+    - Depositing collateral into a long position incurs a 0.3% swap fee for
+    asset-to-USD conversion, not applicable for shorts or withdrawals.
+
 
     ## Fees
 
