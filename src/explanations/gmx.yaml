@@ -13,14 +13,14 @@
     </div>
 
 
-    ### Definition of "Entry Price" and "Liquidation Price":
+    The "Entry Price" is $3541.17 and the Liquidation Price is $2903.76. Below
+    the swap box you would also see the "Exit Price", which is the price that
+    would be used to calculate profits if you open and then immediately close a
+    position. The exit price will change with the price of the token you are
+    longing or shorting.
 
-    - The "Entry Price" is set at $3541.17
 
-    - The "Liquidation Price" is set at $2903.76
-
-    - "Exit Price" is the price used to calculate profits if you open and close
-    a position immediately, it changes with the token price you are trading.
+    **Some Important things to note are**
 
 
     #### Trading Fees:
